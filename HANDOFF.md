@@ -57,7 +57,8 @@ Hudson asked Claude to check every place against its Google listing, Apple Maps 
 - 3 Wok and Roll: Apple lists it as "Karaoke" with 4 p.m.–2 a.m. hours. That's the karaoke side, not the restaurant.
 - 21 PHO 88: Apple lists pho88noodles.com as the website; the guide lists pho88dc.com. Neither could be fully read.
 - 16 Luna Bar / Luna Hall: Apple lists lunahalldc.com, which was "under maintenance"; the guide keeps lunahallgroup.com.
-- Still no Instagram account could be confirmed for: Ambrosia, Joy Luck House, Chinatown Garden, New Big Wong, China Boy, Cinnara, Poke Ninja, PHO 88, Sharetea.
+- ✱ Instagram handles supplied by Hudson and confirmed to exist (Nov 26): 2 Ambrosia @ambrosiadc · 6 Chinatown Garden @chinatowngardendc · 10 Cinnara @eatcinnara · 21 PHO 88 @pho88_dc · 22 Sharetea @sharetea_dc_chinatown.
+- Still no Instagram account for: Joy Luck House, New Big Wong, China Boy, Poke Ninja.
 
 ---
 
