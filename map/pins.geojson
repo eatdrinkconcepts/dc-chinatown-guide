@@ -1,0 +1,531 @@
+{
+  "type": "FeatureCollection",
+  "name": "DC Chinatown guide pins",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "walk_origin",
+        "name": "Walter E. Washington Convention Center south facade (801 Mount Vernon Place NW)",
+        "rank": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0229439,
+          38.90313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "gate",
+        "name": "Friendship Archway",
+        "rank": null,
+        "note": "Coordinates approximated by unprojecting the labeled SVG mark; not a surveyed point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.021647,
+          38.899816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "area",
+        "name": "Capital One Arena",
+        "rank": null,
+        "note": "Coordinates approximated by unprojecting the labeled SVG mark; not a surveyed point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.020946,
+          38.898083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "park",
+        "name": "Mount Vernon Sq",
+        "rank": null,
+        "note": "Coordinates approximated by unprojecting the labeled SVG mark; not a surveyed point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.022946,
+          38.902543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "metro",
+        "name": "Gallery Place\u2013Chinatown Metro",
+        "rank": null,
+        "note": "Coordinates approximated by unprojecting the labeled SVG mark; not a surveyed point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02191,
+          38.898793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 1,
+        "name": "Lucky Danger",
+        "cuisine": "Chinese",
+        "featured": true,
+        "address": "709 D St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02255,
+          38.89493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 2,
+        "name": "Ambrosia",
+        "cuisine": "Vietnamese",
+        "featured": true,
+        "address": "619 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02081,
+          38.89999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 3,
+        "name": "Wok and Roll",
+        "cuisine": "Chinese",
+        "featured": true,
+        "address": "604 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0204,
+          38.89963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 4,
+        "name": "Joy Luck House",
+        "cuisine": "Chinese",
+        "featured": true,
+        "address": "748 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02012,
+          38.89962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 5,
+        "name": "Reren Lamen & Bar",
+        "cuisine": "Chinese",
+        "featured": true,
+        "address": "817 7th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0217,
+          38.90029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 6,
+        "name": "Chinatown Garden",
+        "cuisine": "Chinese",
+        "featured": true,
+        "address": "618 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02125,
+          38.89965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 7,
+        "name": "Chinatown Express",
+        "cuisine": "Chinese",
+        "featured": false,
+        "address": "746 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02013,
+          38.89957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 8,
+        "name": "New Big Wong",
+        "cuisine": "Chinese",
+        "featured": false,
+        "address": "610 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02059,
+          38.89967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 9,
+        "name": "China Boy",
+        "cuisine": "Chinese",
+        "featured": false,
+        "address": "815 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0197,
+          38.90038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 10,
+        "name": "Cinnara",
+        "cuisine": "Chinese",
+        "featured": false,
+        "address": "736 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02012,
+          38.89936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 11,
+        "name": "Dumpling District",
+        "cuisine": "Chinese",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 12,
+        "name": "Kung Fu Tea",
+        "cuisine": "Bubble tea",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 13,
+        "name": "TKK Fried Chicken",
+        "cuisine": "Taiwanese",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 14,
+        "name": "Poke Ninja",
+        "cuisine": "Poke",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 15,
+        "name": "Tous les Jours",
+        "cuisine": "Bakery & desserts",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 16,
+        "name": "Luna Bar",
+        "cuisine": "Bar",
+        "featured": false,
+        "address": "625 H St NW, Washington, DC",
+        "hall": "Luna Hall",
+        "map_marker": "luna-hall-11-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02048,
+          38.89989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 17,
+        "name": "Daikaya Ramen Shop",
+        "cuisine": "Japanese",
+        "featured": false,
+        "address": "705 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01971,
+          38.89859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 18,
+        "name": "The Izakaya at Daikaya",
+        "cuisine": "Japanese",
+        "featured": false,
+        "address": "705 6th St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01968,
+          38.89862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 19,
+        "name": "Bantam King",
+        "cuisine": "Japanese",
+        "featured": false,
+        "address": "501 G St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01913,
+          38.89846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 20,
+        "name": "Kura Revolving Sushi Bar",
+        "cuisine": "Japanese",
+        "featured": false,
+        "address": "614 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02066,
+          38.89967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 21,
+        "name": "PHO 88 Noodles & Grill",
+        "cuisine": "Vietnamese",
+        "featured": false,
+        "address": "608 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0205,
+          38.89967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "restaurant",
+        "rank": 22,
+        "name": "Sharetea DC Chinatown",
+        "cuisine": "Bubble tea",
+        "featured": false,
+        "address": "519 H St NW, Washington, DC",
+        "hall": null,
+        "map_marker": "22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01962,
+          38.89994
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Print edition stays out of the public repo until approved
+*.pdf
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Incoming zips from Grok (unpack, then delete)
+incoming/
+*.zip

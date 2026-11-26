@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chinatown Design Review boundary",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DC Office of Planning Chinatown Design Review area",
+        "description": "Bounded by Mount Vernon Square, Massachusetts Avenue, 5th Street, G Street and 8th Street NW. In practice G St to K St / Mass Ave, and 5th to 8th St NW, centered on the Friendship Archway at 7th and H.",
+        "source": "Guide source (gpage.tsx DATA.poly), used in the print map."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.01893,
+              38.90113
+            ],
+            [
+              -77.01992,
+              38.90148
+            ],
+            [
+              -77.02109,
+              38.90188
+            ],
+            [
+              -77.02153,
+              38.90203
+            ],
+            [
+              -77.02161,
+              38.90206
+            ],
+            [
+              -77.02165,
+              38.90207
+            ],
+            [
+              -77.0217,
+              38.90208
+            ],
+            [
+              -77.02192,
+              38.90211
+            ],
+            [
+              -77.02211,
+              38.90211
+            ],
+            [
+              -77.02295,
+              38.90211
+            ],
+            [
+              -77.02295,
+              38.90088
+            ],
+            [
+              -77.02295,
+              38.89982
+            ],
+            [
+              -77.02294,
+              38.89846
+            ],
+            [
+              -77.02192,
+              38.89845
+            ],
+            [
+              -77.02192,
+              38.89832
+            ],
+            [
+              -77.01991,
+              38.89832
+            ],
+            [
+              -77.01893,
+              38.89832
+            ],
+            [
+              -77.01893,
+              38.89906
+            ],
+            [
+              -77.01893,
+              38.89982
+            ],
+            [
+              -77.01893,
+              38.90087
+            ],
+            [
+              -77.01893,
+              38.90113
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

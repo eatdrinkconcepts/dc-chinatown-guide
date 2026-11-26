@@ -1,0 +1,1010 @@
+{
+  "title": "DC Chinatown Restaurant Guide",
+  "prepared_by": "The Lion's Path",
+  "instagram": "@lionspathdc",
+  "instagram_url": "https://www.instagram.com/lionspathdc/",
+  "current_as_of": "2026-11-26",
+  "current_as_of_display": "November 26, 2026",
+  "place_count": 22,
+  "guide_order_note": "Places are in print-guide order: the six featured restaurants first (Lucky Danger #1 through Chinatown Garden #6), then the remaining 16 by cuisine section as they appear in the booklet (Chinese, Japanese, Vietnamese, Taiwanese, Poke, Bubble tea, Bakery & desserts, Bar). Rank numbers match the numbered pins on the map.",
+  "walk_origin": {
+    "name": "Walter E. Washington Convention Center south facade (801 Mount Vernon Place NW)",
+    "lat": 38.90313,
+    "lon": -77.0229439,
+    "method": "Manhattan distance on the street grid from the south edge of the Convention Center OSM footprint (bbox min lat 38.90313), 3 mph walking pace, times rounded to the nearest minute."
+  },
+  "basemap_attribution": "© OpenStreetMap contributors (https://www.openstreetmap.org/copyright). The map is a custom SVG street grid drawn from OpenStreetMap ways, not raster tiles.",
+  "cuisine_sections": [
+    {
+      "cuisine": "Chinese",
+      "intro": "The heart of the old Chinatown: Cantonese roast meats and noodle shops on H and 6th Streets, plus newer hand-pulled noodle, Sichuan and soup dumpling spots.",
+      "place_count": 10,
+      "featured_in_section_named_above": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "cuisine": "Japanese",
+      "intro": "Ramen, izakaya plates, fried chicken and conveyor sushi, including the Daikaya group's two spots at 6th and G.",
+      "place_count": 4,
+      "featured_in_section_named_above": []
+    },
+    {
+      "cuisine": "Vietnamese",
+      "intro": "Two pho spots facing each other across the 600 block of H Street.",
+      "place_count": 2,
+      "featured_in_section_named_above": [
+        2
+      ]
+    },
+    {
+      "cuisine": "Taiwanese",
+      "intro": "Taiwanese fried chicken, at a Luna Hall counter it shares with Kung Fu Tea.",
+      "place_count": 1,
+      "featured_in_section_named_above": []
+    },
+    {
+      "cuisine": "Poke",
+      "intro": "Build-your-own poke bowls inside Luna Hall.",
+      "place_count": 1,
+      "featured_in_section_named_above": []
+    },
+    {
+      "cuisine": "Bubble tea",
+      "intro": "Bubble tea also turns up at Reren and Joy Luck House.",
+      "place_count": 2,
+      "featured_in_section_named_above": []
+    },
+    {
+      "cuisine": "Bakery & desserts",
+      "intro": "A Korean-French bakery café inside Luna Hall.",
+      "place_count": 1,
+      "featured_in_section_named_above": []
+    },
+    {
+      "cuisine": "Bar",
+      "intro": "Luna Hall's own bar, in the food hall's lounge.",
+      "place_count": 1,
+      "featured_in_section_named_above": []
+    }
+  ],
+  "places": [
+    {
+      "rank": 1,
+      "featured": true,
+      "featured_order": 1,
+      "name": "Lucky Danger",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese American (chef-driven takeout classics, cocktails)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "709 D St NW, Washington, DC",
+      "address_street": "709 D St NW",
+      "street": "D St NW",
+      "lat": 38.89493,
+      "lng": -77.02255,
+      "hours": "Tue–Thu 11:30 a.m.–2 p.m. and 4:30–9 p.m.; Fri 11:30 a.m.–2 p.m. and 4:30–10 p.m.; Sat 4:30–10 p.m.; closed Sun–Mon",
+      "hours_source": "Official site, luckydanger.co/washington-dc, fetched Nov 26, 2026",
+      "walk": "0.6 mi · about 12 min walk",
+      "walk_distance_mi": 0.6,
+      "walk_time_min": 12,
+      "phone": "(771) 233-5454",
+      "website": "https://www.luckydanger.co/washington-dc",
+      "instagram": "@_luckydanger",
+      "instagram_url": "https://www.instagram.com/_luckydanger/",
+      "instagram_scope": "brand",
+      "group_notes": "Mahjong room bookable by the hour; private classes for up to 15",
+      "hall": null,
+      "location": "7th and D St NW, three blocks south of the Chinatown boundary.",
+      "status": "Open",
+      "blurb": "Tim Ma's love letter to American Chinese takeout has traveled a long way: a 2020 pandemic pop-up, an Arlington takeout spot from 2021 and, since June 2025, this full-service flagship. Executive chef Robbie Reyes treats the canon (General Tso's chicken, beef and broccoli, crab rangoon) as something worth reworking, not apologizing for. Come for the cocktail bars; stay for the back mahjong room and its three automatic shuffling tables, billed as DC's only public one.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://www.luckydanger.co/washington-dc"
+        },
+        {
+          "label": "Restaurant site (about)",
+          "url": "https://www.luckydanger.co/"
+        },
+        {
+          "label": "OpenTable listing",
+          "url": "https://www.opentable.com/r/lucky-danger-chinatown-washington"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 2,
+      "featured": true,
+      "featured_order": 2,
+      "name": "Ambrosia",
+      "cuisine": "Vietnamese",
+      "cuisine_detail": "Vietnamese (pho, banh mi, wok)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "619 H St NW, Washington, DC",
+      "address_street": "619 H St NW",
+      "street": "H St NW",
+      "lat": 38.89999,
+      "lng": -77.02081,
+      "hours": "Mon–Thu 10 a.m.–1 a.m.; Fri–Sun 10 a.m.–2 a.m.",
+      "hours_source": "PoPville, Sep 1, 2026, quoting the restaurant; Ambrosia’s own site returned HTTP 503 on Nov 26, 2026",
+      "walk": "0.3 mi · about 7 min walk",
+      "walk_distance_mi": 0.3,
+      "walk_time_min": 7,
+      "phone": "(571) 233-5001",
+      "website": "https://ambrosiadc.vercel.app/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Modern Vietnamese (pho, banh mi, wok dishes, cocktails) now fills the old Tony Cheng's space, a quiet changing of the guard on H Street. It opened in late August 2026 and keeps night-owl hours: 1 a.m. on weeknights, 2 a.m. Friday to Sunday.",
+      "sources": [
+        {
+          "label": "PoPville, Sep 2026",
+          "url": "https://www.popville.com/2026/09/ambrosia-vietnamese-restaurant-open-tony-chengs-dc-chinatown/"
+        },
+        {
+          "label": "Restaurant site",
+          "url": "https://ambrosiadc.vercel.app/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 3,
+      "featured": true,
+      "featured_order": 3,
+      "name": "Wok and Roll",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese, Japanese / sushi (karaoke)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "604 H St NW, Washington, DC",
+      "address_street": "604 H St NW",
+      "street": "H St NW",
+      "lat": 38.89963,
+      "lng": -77.0204,
+      "hours": "Mon–Tue 11 a.m.–9:30 p.m.; Wed 11 a.m.–1 a.m.; Thu–Sat 11 a.m.–2 a.m.; Sun 11 a.m.–1 a.m.",
+      "hours_source": "DowntownDC BID listing, downtowndc.org/explore/places/wok-and-roll-restaurant-karaoke/, fetched Nov 26, 2026",
+      "walk": "0.4 mi · about 8 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 8,
+      "phone": "(202) 450-4702",
+      "website": "https://www.wokandrolldc.com/",
+      "instagram": "@wokandrolldclife",
+      "instagram_url": "https://www.instagram.com/wokandrolldclife/",
+      "instagram_scope": "location",
+      "group_notes": "Private karaoke rooms (karaoke hours differ; see wokandrolldc.com/daily-hours)",
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Chinese and Japanese plates, sushi included, share the bill with private karaoke rooms you can book for a group. The building has a past: 604 H St is the historic Surratt boarding house.",
+      "sources": [
+        {
+          "label": "Downtown DC BID",
+          "url": "https://www.downtowndc.org/explore/places/wok-and-roll-restaurant-karaoke/"
+        },
+        {
+          "label": "Wok and Roll on Instagram",
+          "url": "https://www.instagram.com/wokandrolldclife/"
+        },
+        {
+          "label": "Wikipedia: Mary Surratt Boarding House",
+          "url": "https://en.wikipedia.org/wiki/Mary_Surratt_Boarding_House"
+        }
+      ],
+      "photo": {
+        "file": "photos/wok-and-roll-storefront.jpg",
+        "slot": "storefront",
+        "caption": "604 H St, the Surratt House (Jun 2024)",
+        "credit": "ajay_suresh, CC BY 2.0, Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Mary_Surratt_Boarding_House_(53840299868).jpg"
+      }
+    },
+    {
+      "rank": 4,
+      "featured": true,
+      "featured_order": 4,
+      "name": "Joy Luck House",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese bakery, dim sum",
+      "type": "Cafe / bakery · $",
+      "type_base": "Cafe / bakery",
+      "price": "$",
+      "address": "748 6th St NW, Washington, DC",
+      "address_street": "748 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.89962,
+      "lng": -77.02012,
+      "hours": "Tue–Sun 10:30 a.m.–8:30 p.m.; closed Mon",
+      "hours_source": "Official site joyluckhouse.com (hours) and Restaurantji listing updated Nov 15, 2026 (closed Monday)",
+      "walk": "0.4 mi · about 8 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 8,
+      "phone": "(202) 628-1668",
+      "website": "https://www.joyluckhouse.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "A small bakery-café where the glass case does the talking: warm egg tarts and mooncakes, chased with homemade iced tea or taro boba. It does breakfast, too.",
+      "sources": [
+        {
+          "label": "The Infatuation, 2024",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/joy-luck-house"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 5,
+      "featured": true,
+      "featured_order": 5,
+      "name": "Reren Lamen & Bar",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (lamen, dim sum)",
+      "type": "Full-service · $$",
+      "type_base": "Full-service",
+      "price": "$$",
+      "address": "817 7th St NW, Washington, DC",
+      "address_street": "817 7th St NW",
+      "street": "7th St NW",
+      "lat": 38.90029,
+      "lng": -77.0217,
+      "hours": "Daily 11:30 a.m.–10 p.m.",
+      "hours_source": "Official site rerenlamen.com/contact/ and DowntownDC BID listing, both fetched Nov 26, 2026",
+      "walk": "0.3 mi · about 5 min walk",
+      "walk_distance_mi": 0.3,
+      "walk_time_min": 5,
+      "phone": "(202) 290-3677",
+      "website": "https://rerenlamen.com/",
+      "instagram": "@rerenlamen",
+      "instagram_url": "https://www.instagram.com/rerenlamen/",
+      "instagram_scope": "location",
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "The headline is hand-pulled lamen (la mian) in layered broths. Around it: Chengdu spicy wontons, xiao long bao, handmade dumplings, and a full bar that also pours bubble tea. A second location holds down Georgetown.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://rerencafe.com/chinatown"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 6,
+      "featured": true,
+      "featured_order": 6,
+      "name": "Chinatown Garden",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (Cantonese)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "618 H St NW, Washington, DC",
+      "address_street": "618 H St NW",
+      "street": "H St NW",
+      "lat": 38.89965,
+      "lng": -77.02125,
+      "hours": "Daily 11 a.m.–9 p.m.",
+      "hours_source": "Restaurant ordering site chinatowngardenwashington.com, as listed Nov 26, 2026",
+      "walk": "0.3 mi · about 7 min walk",
+      "walk_distance_mi": 0.3,
+      "walk_time_min": 7,
+      "phone": "(202) 737-8887",
+      "website": "https://www.chinatowngardenwashington.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "A long-running Cantonese and Hong Kong-style room on H Street that turned toward a more traditional Chinese menu in 2015, betting on its roots rather than chasing trends.",
+      "sources": [
+        {
+          "label": "Washington Post, 2015",
+          "url": "https://www.washingtonpost.com/news/going-out-guide/wp/2015/02/19/how-can-a-flagging-chinese-restaurant-keep-up-with-changing-tastes-become-more-chinese/"
+        }
+      ],
+      "photo": {
+        "file": "photos/chinatown-garden-storefront.jpg",
+        "slot": "storefront",
+        "caption": "618 H St facade (Apr 2026)",
+        "credit": "APK, CC BY 4.0, Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Chinatown_Garden_Washington,_D.C..jpg"
+      }
+    },
+    {
+      "rank": 7,
+      "featured": false,
+      "featured_order": null,
+      "name": "Chinatown Express",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (hand-pulled noodles, dumplings)",
+      "type": "Full-service · $$",
+      "type_base": "Full-service",
+      "price": "$$",
+      "address": "746 6th St NW, Washington, DC",
+      "address_street": "746 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.89957,
+      "lng": -77.02013,
+      "hours": "Daily 11 a.m.–10 p.m.",
+      "hours_source": "Current listings (including Tripadvisor) as of Nov 26, 2026; official info page was not reachable",
+      "walk": "0.4 mi · about 8 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 8,
+      "phone": "(202) 851-2951",
+      "website": "https://chinatownexpressdc.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "The show starts in the front window on 6th Street, where noodles are pulled by hand in full view. The order is the roast duck noodle soup, which Washington Post readers named a must-try in 2013; Cantonese roast meats, shrimp wonton noodle soup and beef chow foon fill out a menu that knows exactly what it is.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://chinatownexpressdc.com/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 8,
+      "featured": false,
+      "featured_order": null,
+      "name": "New Big Wong",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (late-night Cantonese)",
+      "type": "Full-service · $$",
+      "type_base": "Full-service",
+      "price": "$$",
+      "address": "610 H St NW, Washington, DC",
+      "address_street": "610 H St NW",
+      "street": "H St NW",
+      "lat": 38.89967,
+      "lng": -77.02059,
+      "hours": "Closes 2 a.m. Sun–Thu and 3 a.m. Fri–Sat. Opening time is unverified: the DowntownDC BID has listed 10:30 a.m.; some directories now show 4:30 p.m.",
+      "hours_source": "Closing times: Destination DC (washington.org late-night dining, last updated Aug 5, 2026) and current listings. Opening time conflict: BID vs. Restaurantji/directories, Nov 26, 2026. Phone unchanged from restaurant listings.",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 628-0491",
+      "website": "https://newbigwongtogo.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "A lower-level Cantonese dining room (meat, seafood and vegetarian dishes, done the traditional way) with a reputation for outlasting the night: it stays open until 2 a.m. Sunday to Thursday and 3 a.m. Friday and Saturday.",
+      "sources": [
+        {
+          "label": "Downtown DC BID",
+          "url": "https://www.downtowndc.org/go/new-big-wong/"
+        },
+        {
+          "label": "The Infatuation",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/new-big-wong"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 9,
+      "featured": false,
+      "featured_order": null,
+      "name": "China Boy",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (Cantonese, rice noodle rolls)",
+      "type": "Fast-casual · $$",
+      "type_base": "Fast-casual",
+      "price": "$$",
+      "address": "815 6th St NW, Washington, DC",
+      "address_street": "815 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.90038,
+      "lng": -77.0197,
+      "hours": "Mon, Wed–Sun 9:30 a.m.–5 p.m.; closed Tue",
+      "hours_source": "Restaurantji and Eater DC venue listing, as of Nov 26, 2026; official ordering site did not return a usable page to this refresh",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 371-1661",
+      "website": "https://www.chinaboynoodledc.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "A Cantonese counter whose house-made rice noodles are the whole point; dry-fried beef chow fun is how they're known. Daytime only: roughly 9:30 a.m. to 5 p.m., closed Tuesdays.",
+      "sources": [
+        {
+          "label": "Ordering site",
+          "url": "https://www.chinaboynoodledc.com/"
+        },
+        {
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/china-boy-washington"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 10,
+      "featured": false,
+      "featured_order": null,
+      "name": "Cinnara",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (Southwest Chinese beef noodles, individual hot pots)",
+      "type": "Fast-casual",
+      "type_base": "Fast-casual",
+      "price": null,
+      "address": "736 6th St NW, Washington, DC",
+      "address_street": "736 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.89936,
+      "lng": -77.02012,
+      "hours": "Daily 11 a.m.–9:30 p.m.",
+      "hours_source": "Official site eatcinnara.com, fetched Nov 26, 2026",
+      "walk": "0.4 mi · about 8 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 8,
+      "phone": "(202) 506-5763",
+      "website": "https://www.eatcinnara.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Formerly Bonkers' Chinese Burger, this 6th Street counter has turned toward Southwest China as a noodle and hot pot shop. Everything hinges on a slow-simmered beef bone broth, the base for its signature beef noodles (Mala Spicy Beef Noodle Soup and Taiwan Braised Beef Noodle Soup among them). Individual hot pots draw on Sichuan, Chongqing, Guizhou and Yunnan flavors; handmade dumplings, pork wontons and fresh fruit teas round it out. Open daily, 11 AM to 9:30 PM.",
+      "sources": [
+        {
+          "label": "Cinnara website",
+          "url": "https://www.eatcinnara.com/"
+        },
+        {
+          "label": "Cinnara menu on DoorDash",
+          "url": "https://www.doordash.com/store/51071413"
+        },
+        {
+          "label": "Mindtrip listing (phone)",
+          "url": "https://mindtrip.ai/restaurant/washington-dc-district-columbia/cinnara/re-2wTX2QcO"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 11,
+      "featured": false,
+      "featured_order": null,
+      "name": "Dumpling District",
+      "cuisine": "Chinese",
+      "cuisine_detail": "Chinese (soup dumplings, Shanghainese dim sum, noodles)",
+      "type": "Food-hall stall",
+      "type_base": "Food-hall stall",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Tous les Jours official store-hours widget for Luna Hall DC and consistent hall listings, Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 450-1802",
+      "website": "https://dumplingdistrictusa.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall, 625 H St NW.",
+      "status": "Open",
+      "blurb": "Luna Hall's anchor, and the reason many people walk in: soup dumplings (xiao long bao) in pork, chicken, mala spicy pork, crab and pork, shrimp and zucchini, and black truffle. Can't choose? The Rainbow Soup Dumplings platter settles it with one of each. Beyond the steamer: pan-fried bao, potstickers, pork wontons in chili oil, scallion pancakes, fried rice, stir-fried noodles and noodle soups.",
+      "sources": [
+        {
+          "label": "Dumpling District menu",
+          "url": "https://dumplingdistrictusa.com/menu/"
+        },
+        {
+          "label": "Luna Hall online ordering (Toast)",
+          "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw"
+        },
+        {
+          "label": "The Infatuation",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/dumpling-district"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 12,
+      "featured": false,
+      "featured_order": null,
+      "name": "Kung Fu Tea",
+      "cuisine": "Bubble tea",
+      "cuisine_detail": "Bubble tea (milk, fruit and classic teas)",
+      "type": "Food-hall stall",
+      "type_base": "Food-hall stall",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Same as Luna Hall; Yelp lists a combined Kung Fu Tea / TKK stall at 625 H St, Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 450-1802 (Luna Hall main line)",
+      "website": "https://www.kungfutea.com/",
+      "instagram": "@kungfuteausa",
+      "instagram_url": "https://www.instagram.com/kungfuteausa/",
+      "instagram_scope": "brand",
+      "group_notes": null,
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall, 625 H St NW.",
+      "status": "Open",
+      "blurb": "The Kung Fu Tea chain's Luna Hall branch, where tea, milk and fruit drinks are the starting point and the toppings (bubbles, beans, jellies, pudding) are where you make it yours. It's open 11 AM to 9:30 PM.",
+      "sources": [
+        {
+          "label": "Kung Fu Tea DC store list",
+          "url": "https://www.kungfutea.com/locations/district-of-columbia/"
+        },
+        {
+          "label": "Luna Hall DC (hall site)",
+          "url": "https://lunahallgroup.com/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 13,
+      "featured": false,
+      "featured_order": null,
+      "name": "TKK Fried Chicken",
+      "cuisine": "Taiwanese",
+      "cuisine_detail": "Taiwanese fried chicken",
+      "type": "Food-hall stall",
+      "type_base": "Food-hall stall",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Same as Luna Hall; confirmed still at the DC hall via Yelp (Kung Fu Tea / TKK) and current listings, Nov 26, 2026. TKK’s national site did not list this address.",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 450-1802 (Luna Hall main line)",
+      "website": "https://www.tkkusa.com/",
+      "instagram": "@tkkfriedchicken",
+      "instagram_url": "https://www.instagram.com/tkkfriedchicken/",
+      "instagram_scope": "brand",
+      "group_notes": null,
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall, 625 H St NW.",
+      "status": "Open",
+      "blurb": "TKK has been frying chicken since 1974, when its first shop opened in Taipei's Ximending. Here it comes as mixed buckets, sandwiches or tenders, in original, crispy mild or crispy spicy, with curly fries alongside. The Infatuation (Nov 2023) scored it 8.5 and pointed straight at the tenders. It shares a counter with Kung Fu Tea.",
+      "sources": [
+        {
+          "label": "The Infatuation",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/tkk-fried-chicken-dc"
+        },
+        {
+          "label": "Luna Hall DC (hall site)",
+          "url": "https://lunahallgroup.com/"
+        },
+        {
+          "label": "Yelp (Kung Fu Tea / TKK Fried Chicken)",
+          "url": "https://www.yelp.com/biz/kung-fu-tea-tkk-fried-chicken-washington"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 14,
+      "featured": false,
+      "featured_order": null,
+      "name": "Poke Ninja",
+      "cuisine": "Poke",
+      "cuisine_detail": "Poke bowls",
+      "type": "Food-hall stall",
+      "type_base": "Food-hall stall",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Luna Hall Group site still lists Poke Ninja at the DC hall; hours same as the hall, Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 450-1802 (Luna Hall main line)",
+      "website": "https://thepokeninja.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall, 625 H St NW.",
+      "status": "Open",
+      "blurb": "Build-your-own poke in the familiar steps (size, base, proteins, toppings, crunch, sauce), or let a signature bowl decide: the Ninja Blaze stacks salmon, ahi tuna, jalapeño, cherry tomato, sriracha and spicy mayo; the Shuriken Sensation pairs ahi and spicy tuna with mango and avocado.",
+      "sources": [
+        {
+          "label": "Poke Ninja site (DC location)",
+          "url": "https://thepokeninja.com/"
+        },
+        {
+          "label": "Luna Hall online ordering (Toast)",
+          "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 15,
+      "featured": false,
+      "featured_order": null,
+      "name": "Tous les Jours",
+      "cuisine": "Bakery & desserts",
+      "cuisine_detail": "Korean-French bakery café",
+      "type": "Cafe / bakery",
+      "type_base": "Cafe / bakery",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Official store page tljus.com/stores/washington-dc-625-h-st-nw hours widget, fetched Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 621-7811",
+      "website": "https://tljus.com/stores/washington-dc-625-h-st-nw",
+      "instagram": "@touslesjoursusa",
+      "instagram_url": "https://www.instagram.com/touslesjoursusa/",
+      "instagram_scope": "brand",
+      "group_notes": null,
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall (Unit 101).",
+      "status": "Open",
+      "blurb": "The Korean bakery-café chain's Luna Hall outpost at Unit 101, part of the hall's lineup since July 2024. Breads, cakes, pastries and breakfast sandwiches line up beside specialty coffee, smoothies and teas. Hours run 11:15 AM to 10:30 PM.",
+      "sources": [
+        {
+          "label": "Tous les Jours store page",
+          "url": "https://tljus.com/stores/washington-dc-625-h-st-nw"
+        },
+        {
+          "label": "Luna Hall news",
+          "url": "https://lunahallgroup.com/news/"
+        },
+        {
+          "label": "Uber Eats listing",
+          "url": "https://www.ubereats.com/store/tous-les-jours-luna-hall-dc/tBf7jCZwVM2l1EP8cp6GJw"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 16,
+      "featured": false,
+      "featured_order": null,
+      "name": "Luna Bar",
+      "cuisine": "Bar",
+      "cuisine_detail": "Cocktail bar in the food hall",
+      "type": "Bar (in food hall)",
+      "type_base": "Bar (in food hall)",
+      "price": null,
+      "address": "625 H St NW, Washington, DC",
+      "address_street": "625 H St NW",
+      "street": "H St NW",
+      "lat": 38.89989,
+      "lng": -77.02048,
+      "hours": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–11 p.m.",
+      "hours_source": "Same as Luna Hall, Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 450-1802 (Luna Hall main line)",
+      "website": "https://lunahallgroup.com/",
+      "instagram": "@lunahallusa",
+      "instagram_url": "https://www.instagram.com/lunahallusa/",
+      "instagram_scope": "brand",
+      "group_notes": "Bookable for events",
+      "hall": "Luna Hall",
+      "location": "Inside Luna Hall (Unit 103).",
+      "status": "Open",
+      "blurb": "Luna Hall's own bar: a lounge of comfy seats, upbeat music, DJ gear, lights and a fully stocked bar, bookable for events. The practical move is to grab a drink here while you wait on a TKK order.",
+      "sources": [
+        {
+          "label": "Luna Hall DC (hall site)",
+          "url": "https://lunahallgroup.com/"
+        },
+        {
+          "label": "The Infatuation (TKK review)",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/tkk-fried-chicken-dc"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 17,
+      "featured": false,
+      "featured_order": null,
+      "name": "Daikaya Ramen Shop",
+      "cuisine": "Japanese",
+      "cuisine_detail": "Japanese (Sapporo ramen)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "705 6th St NW, Washington, DC",
+      "address_street": "705 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.89859,
+      "lng": -77.01971,
+      "hours": "Mon–Thu 11:30 a.m.–9:30 p.m.; Fri 11:30 a.m.–10:30 p.m.; Sat 11 a.m.–10:30 p.m.; Sun 11 a.m.–9:30 p.m. Walk-in only.",
+      "hours_source": "Official hours page daikaya.com/location/daikaya-dine-in-hours/, fetched Nov 26, 2026",
+      "walk": "0.5 mi · about 10 min walk",
+      "walk_distance_mi": 0.5,
+      "walk_time_min": 10,
+      "phone": "(202) 589-1600",
+      "website": "https://www.daikaya.com/",
+      "instagram": "@daikaya_ramen",
+      "instagram_url": "https://www.instagram.com/daikaya_ramen/",
+      "instagram_scope": "location",
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "The first floor does one thing: traditional Sapporo-style ramen. No reservations, no detours.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://www.daikaya.com/"
+        }
+      ],
+      "photo": {
+        "file": "photos/daikaya-ramen-storefront.jpg",
+        "slot": "storefront",
+        "caption": "705 6th St facade (Jan 2017, cropped)",
+        "credit": "AgnosticPreachersKid, CC BY-SA 4.0, Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:703-707_6th_Street_NW.jpg"
+      }
+    },
+    {
+      "rank": 18,
+      "featured": false,
+      "featured_order": null,
+      "name": "The Izakaya at Daikaya",
+      "cuisine": "Japanese",
+      "cuisine_detail": "Japanese izakaya (Daikaya upstairs)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "705 6th St NW, Washington, DC",
+      "address_street": "705 6th St NW",
+      "street": "6th St NW",
+      "lat": 38.89862,
+      "lng": -77.01968,
+      "hours": "Tue–Thu 5–9:30 p.m.; Fri–Sat 5–10:30 p.m.; Sun 5–9 p.m.; closed Mon",
+      "hours_source": "Official location page daikaya.com/location/daikaya/, fetched Nov 26, 2026",
+      "walk": "0.5 mi · about 10 min walk",
+      "walk_distance_mi": 0.5,
+      "walk_time_min": 10,
+      "phone": "(202) 589-1600",
+      "website": "https://www.daikaya.com/location/daikaya/",
+      "instagram": "@daikaya_ramen",
+      "instagram_url": "https://www.instagram.com/daikaya_ramen/",
+      "instagram_scope": "location",
+      "group_notes": "Reservations via OpenTable (izakaya only)",
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Upstairs, Daikaya becomes a Japanese tavern: creative small plates, craft cocktails, a rare Japanese whisky collection and DJs on weekends. Book on OpenTable, and don't come up here expecting ramen.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://www.daikaya.com/location/daikaya/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 19,
+      "featured": false,
+      "featured_order": null,
+      "name": "Bantam King",
+      "cuisine": "Japanese",
+      "cuisine_detail": "Japanese (fried chicken, ramen)",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "501 G St NW, Washington, DC",
+      "address_street": "501 G St NW",
+      "street": "G St NW",
+      "lat": 38.89846,
+      "lng": -77.01913,
+      "hours": "Mon–Fri 11:30 a.m.–2:30 p.m. and 5–9 p.m.; Sat–Sun 11 a.m.–9 p.m.",
+      "hours_source": "Official location page bantamking.com/location/bantam-king/, fetched Nov 26, 2026",
+      "walk": "0.5 mi · about 11 min walk",
+      "walk_distance_mi": 0.5,
+      "walk_time_min": 11,
+      "phone": "(202) 733-2612",
+      "website": "https://www.bantamking.com/",
+      "instagram": "@bantamkingdc",
+      "instagram_url": "https://www.instagram.com/bantamkingdc/",
+      "instagram_scope": "location",
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "The Daikaya team's ode to the bird, in chicken ramen and fried chicken. The chicken is halal-certified from Noor Al-Jabal, and happy hour runs weekdays, 5 to 7 p.m.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://www.bantamking.com/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 20,
+      "featured": false,
+      "featured_order": null,
+      "name": "Kura Revolving Sushi Bar",
+      "cuisine": "Japanese",
+      "cuisine_detail": "Japanese revolving sushi",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "614 H St NW, Washington, DC",
+      "address_street": "614 H St NW",
+      "street": "H St NW",
+      "lat": 38.89967,
+      "lng": -77.02066,
+      "hours": "Mon–Thu 11:30 a.m.–9:30 p.m.; Fri 11:30 a.m.–9:30 p.m.; Sat 11 a.m.–10 p.m.; Sun 11 a.m.–9:30 p.m.",
+      "hours_source": "Official location page (Mon–Wed, Sat–Sun) plus Restaurantji weekly hours updated Nov 11, 2026 (Thu–Fri). On Nov 26 the official page showed Thursday closed and Friday 11:30 a.m.–9 p.m., matching its posted Thanksgiving/Black Friday hours, not the regular week.",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 629-2709",
+      "website": "https://kurasushi.com/locations/washington-dc/",
+      "instagram": "@kurasushi_usa",
+      "instagram_url": "https://www.instagram.com/kurasushi_usa/",
+      "instagram_scope": "brand",
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Sushi circles past on a conveyor belt at this national chain; udon, ramen and desserts fill in the gaps.",
+      "sources": [
+        {
+          "label": "Location page",
+          "url": "https://kurasushi.com/locations/washington-dc/"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 21,
+      "featured": false,
+      "featured_order": null,
+      "name": "PHO 88 Noodles & Grill",
+      "cuisine": "Vietnamese",
+      "cuisine_detail": "Vietnamese pho",
+      "type": "Full-service",
+      "type_base": "Full-service",
+      "price": null,
+      "address": "608 H St NW, Washington, DC",
+      "address_street": "608 H St NW",
+      "street": "H St NW",
+      "lat": 38.89967,
+      "lng": -77.0205,
+      "hours": "Mon–Sat 11 a.m.–10 p.m.; Sun noon–9 p.m.",
+      "hours_source": "Official site pho88dc.com and DowntownDC BID listing, both fetched Nov 26, 2026",
+      "walk": "0.4 mi · about 7 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 7,
+      "phone": "(202) 735-5282",
+      "website": "https://pho88dc.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "Pho leads a lineup of Vietnamese noodle soups, backed by broken rice plates, rolls and Vietnamese coffee.",
+      "sources": [
+        {
+          "label": "Restaurant site",
+          "url": "https://pho88dc.com/"
+        },
+        {
+          "label": "Eater DC venue page",
+          "url": "https://dc.eater.com/venue/47463/pho-88-noodles-and-grill"
+        }
+      ],
+      "photo": null
+    },
+    {
+      "rank": 22,
+      "featured": false,
+      "featured_order": null,
+      "name": "Sharetea DC Chinatown",
+      "cuisine": "Bubble tea",
+      "cuisine_detail": "Bubble tea",
+      "type": "Cafe / bakery",
+      "type_base": "Cafe / bakery",
+      "price": null,
+      "address": "519 H St NW, Washington, DC",
+      "address_street": "519 H St NW",
+      "street": "H St NW",
+      "lat": 38.89994,
+      "lng": -77.01962,
+      "hours": "Sun–Fri 10:45 a.m.–9 p.m.; Sat 10:45 a.m.–9:30 p.m.",
+      "hours_source": "Official contact page shareteadcchinatown.com/contact-us/, fetched Nov 26, 2026",
+      "walk": "0.4 mi · about 8 min walk",
+      "walk_distance_mi": 0.4,
+      "walk_time_min": 8,
+      "phone": "(202) 758-2570",
+      "website": "https://www.shareteadcchinatown.com/",
+      "instagram": null,
+      "instagram_url": null,
+      "instagram_scope": null,
+      "group_notes": null,
+      "hall": null,
+      "location": null,
+      "status": "Open",
+      "blurb": "A local franchise of the Taiwanese bubble tea chain, steps from the corner of 5th and H Streets.",
+      "sources": [
+        {
+          "label": "Store site",
+          "url": "https://www.shareteadcchinatown.com/"
+        }
+      ],
+      "photo": null
+    }
+  ]
+}
