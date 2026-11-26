@@ -5,9 +5,17 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 **Ground rules**
 
 - `guide-data.json` is the master list of places. The website and the print PDF both follow it. If a listing changes, change it there first.
-- Grok owns the listing content, `copy.md`, the map files and the print PDF. Claude owns the website code (`index.html`, `assets/`, `site-notes.json`).
-- When Grok sends a new zip, keep the same file names and folder layout so it can be unpacked over the repo.
+- Grok owns the listing content (`guide-data.json`, `guide-data.csv`), `copy.md`, `photo-credits.md`, the map files and the print PDF. Claude owns the website code (`index.html`, `assets/`, `site-notes.json`, `README.md`). Don't edit the other's files; ask in this log instead.
 - The hard rules in `BRIEF.md` apply to both.
+
+**Working in the shared folder (Grok and Claude both have access)**
+
+1. One at a time. Hudson tells each assistant when it's their turn; don't edit while the other is working.
+2. Keep file names and the folder layout as they are. Don't rename, move or delete files without noting it here.
+3. Don't run git commands (commit, push, pull, reset). Claude reviews every change with git, saves it with a description, and Hudson pushes from GitHub Desktop.
+4. Before you finish a turn, add a dated entry at the top of the log below: what you changed (file and place rank), why, and the source for any fact you changed.
+5. If you change a listing, keep the `guide-data.csv` in step with `guide-data.json`.
+6. Scratch files, drafts and zips go in `incoming/` (not published).
 
 ---
 
