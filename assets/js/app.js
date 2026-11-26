@@ -66,7 +66,10 @@
     if ((p.order || []).length) acts.push("Order online");
     if (acts.length) meta += '<span class="card-acts">' + acts.join(" · ") + "</span>";
     if (state.notes[p.rank]) meta += '<span class="card-flag">⚠ Check before you go</span>';
-    return '<a class="card" href="#place-' + p.rank + '">' + pin(p) +
+    var ph = p.photo && p.photo.file
+      ? '<div class="card-photo"><img src="' + esc(p.photo.file) + '" alt="" loading="lazy"><span class="card-credit">' + esc(p.photo.credit) + "</span></div>"
+      : "";
+    return '<a class="card' + (ph ? " has-photo" : "") + '" href="#place-' + p.rank + '">' + ph + pin(p) +
       '<div class="card-title">' + esc(p.name) + tags + "</div>" +
       '<div class="card-sub">' + esc(p.cuisine_detail) + "</div>" +
       '<div class="card-meta">' + meta + "</div></a>";
