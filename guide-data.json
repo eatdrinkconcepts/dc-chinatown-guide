@@ -117,7 +117,13 @@
           "url": "https://www.opentable.com/r/lucky-danger-chinatown-washington"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJoWkEBZC3t4kRQGtEBLx2McU",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lucky%20Danger%2C%20709%20D%20St%20NW%2C%20Washington%2C%20DC&query_place_id=ChIJoWkEBZC3t4kRQGtEBLx2McU",
+      "apple_place_id": "IE04107A0A90CEB86",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IE04107A0A90CEB86",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 2,
@@ -159,7 +165,13 @@
           "url": "https://ambrosiadc.vercel.app/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJj0uuEQC3t4kRxc2wBZqAnkY",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=AMBROSIA%2C%20619%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJj0uuEQC3t4kRxc2wBZqAnkY",
+      "apple_place_id": "I90BC4E8B7DBA4902",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I90BC4E8B7DBA4902",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 3,
@@ -183,8 +195,8 @@
       "walk_time_min": 8,
       "phone": "(202) 450-4702",
       "website": "https://www.wokandrolldc.com/",
-      "instagram": "@wokandrolldclife",
-      "instagram_url": "https://www.instagram.com/wokandrolldclife/",
+      "instagram": "@wokandrollkaraoke",
+      "instagram_url": "https://www.instagram.com/wokandrollkaraoke/",
       "instagram_scope": "location",
       "group_notes": "Private karaoke rooms (karaoke hours differ; see wokandrolldc.com/daily-hours)",
       "hall": null,
@@ -212,7 +224,13 @@
         "credit": "ajay_suresh, CC BY 2.0, Wikimedia Commons",
         "license": "CC BY 2.0",
         "url": "https://commons.wikimedia.org/wiki/File:Mary_Surratt_Boarding_House_(53840299868).jpg"
-      }
+      },
+      "google_place_id": "ChIJXyx03o23t4kR4yjB3SO7mC8",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Wok%20and%20Roll%20Restaurant%2C%20604%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJXyx03o23t4kR4yjB3SO7mC8",
+      "apple_place_id": "IA9169542454EAEE9",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IA9169542454EAEE9",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 4,
@@ -250,7 +268,13 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/joy-luck-house"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJtZJQ2Y23t4kRs7N-Zpd5j1Q",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Joy%20Luck%20House%2C%20748%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJtZJQ2Y23t4kRs7N-Zpd5j1Q",
+      "apple_place_id": "IA7DB1070BED2B57D",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IA7DB1070BED2B57D",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 5,
@@ -288,7 +312,13 @@
           "url": "https://rerencafe.com/chinatown"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJ77MH9423t4kR1yI5zyphx9E",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Reren%20Lamen%20%26%20Bar%2C%20817%207th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJ77MH9423t4kR1yI5zyphx9E",
+      "apple_place_id": "I4EA7FC16144D8D8D",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I4EA7FC16144D8D8D",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 6,
@@ -333,7 +363,13 @@
         "credit": "APK, CC BY 4.0, Wikimedia Commons",
         "license": "CC BY 4.0",
         "url": "https://commons.wikimedia.org/wiki/File:Chinatown_Garden_Washington,_D.C..jpg"
-      }
+      },
+      "google_place_id": "ChIJAW6V4o23t4kR9VKu5P3pd6I",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chinatown%20Garden%2C%20618%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJAW6V4o23t4kR9VKu5P3pd6I",
+      "apple_place_id": "I43B5BD0BB0D42311",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I43B5BD0BB0D42311",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 7,
@@ -357,9 +393,9 @@
       "walk_time_min": 8,
       "phone": "(202) 851-2951",
       "website": "https://chinatownexpressdc.com/",
-      "instagram": null,
-      "instagram_url": null,
-      "instagram_scope": null,
+      "instagram": "@chinatownexpressdc",
+      "instagram_url": "https://www.instagram.com/chinatownexpressdc/",
+      "instagram_scope": "location",
       "group_notes": null,
       "hall": null,
       "location": null,
@@ -371,7 +407,13 @@
           "url": "https://chinatownexpressdc.com/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJGWrp3o23t4kRqfq8f4NwqoI",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chinatown%20Express%2C%20746%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJGWrp3o23t4kRqfq8f4NwqoI",
+      "apple_place_id": "I8ACE55C77FD4FE7E",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I8ACE55C77FD4FE7E",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 8,
@@ -388,8 +430,8 @@
       "street": "H St NW",
       "lat": 38.89967,
       "lng": -77.02059,
-      "hours": "Closes 2 a.m. Sun–Thu and 3 a.m. Fri–Sat. Opening time is unverified: the DowntownDC BID has listed 10:30 a.m.; some directories now show 4:30 p.m.",
-      "hours_source": "Closing times: Destination DC (washington.org late-night dining, last updated Aug 5, 2026) and current listings. Opening time conflict: BID vs. Restaurantji/directories, Nov 26, 2026. Phone unchanged from restaurant listings.",
+      "hours": "Mon–Fri 4:30 p.m.–2 a.m. (Fri until 3 a.m.); Sat 4 p.m.–3 a.m.; Sun 4 p.m.–2 a.m.",
+      "hours_source": "Google business listing, checked Nov 26, 2026; Apple Maps also shows a 4:30 p.m. opening. Closing times match Destination DC's late-night list (Aug 2026). The DowntownDC BID previously listed a 10:30 a.m. opening.",
       "walk": "0.4 mi · about 7 min walk",
       "walk_distance_mi": 0.4,
       "walk_time_min": 7,
@@ -413,7 +455,13 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/new-big-wong"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJ7S8g4Y23t4kRk1M7B60v_Lw",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NewBigWong%2C%20610%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJ7S8g4Y23t4kRk1M7B60v_Lw",
+      "apple_place_id": "ID61D49C7BE840F43",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=ID61D49C7BE840F43",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 9,
@@ -455,7 +503,13 @@
           "url": "https://www.yelp.com/biz/china-boy-washington"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJj7Uuxo23t4kRAbXVguBedUc",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=China%20Boy%2C%20815%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJj7Uuxo23t4kRAbXVguBedUc",
+      "apple_place_id": "IEB5CC1BFEC8C5B45",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IEB5CC1BFEC8C5B45",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 10,
@@ -501,7 +555,13 @@
           "url": "https://mindtrip.ai/restaurant/washington-dc-district-columbia/cinnara/re-2wTX2QcO"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJ02EhwQG3t4kRNEKl6dkXnR8",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cinnara%2C%20736%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJ02EhwQG3t4kRNEKl6dkXnR8",
+      "apple_place_id": "IACBD4F43762C35CB",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IACBD4F43762C35CB",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 11,
@@ -525,9 +585,9 @@
       "walk_time_min": 7,
       "phone": "(202) 450-1802",
       "website": "https://dumplingdistrictusa.com/",
-      "instagram": null,
-      "instagram_url": null,
-      "instagram_scope": null,
+      "instagram": "@phodumplingdistrictusa",
+      "instagram_url": "https://www.instagram.com/phodumplingdistrictusa/",
+      "instagram_scope": "brand",
       "group_notes": null,
       "hall": "Luna Hall",
       "location": "Inside Luna Hall, 625 H St NW.",
@@ -547,7 +607,13 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/dumpling-district"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJq7lnsx23t4kRSkjdvMavZXU",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dumpling%20District%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJq7lnsx23t4kRSkjdvMavZXU",
+      "apple_place_id": "ID743F78AA005E749",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=ID743F78AA005E749",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 12,
@@ -589,7 +655,13 @@
           "url": "https://lunahallgroup.com/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJEYxghAK3t4kRVmFJjIPKigY",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kung%20Fu%20Tea%20X%20TKK%20Chicken%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJEYxghAK3t4kRVmFJjIPKigY",
+      "apple_place_id": "IEF3E961DA1C745D0",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IEF3E961DA1C745D0",
+      "map_listing_note": "Google lists Kung Fu Tea and TKK Chicken as one counter.",
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 13,
@@ -635,7 +707,13 @@
           "url": "https://www.yelp.com/biz/kung-fu-tea-tkk-fried-chicken-washington"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJEYxghAK3t4kRVmFJjIPKigY",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kung%20Fu%20Tea%20X%20TKK%20Chicken%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJEYxghAK3t4kRVmFJjIPKigY",
+      "apple_place_id": "IEF3E961DA1C745D0",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IEF3E961DA1C745D0",
+      "map_listing_note": "Shares its Google and Apple Maps listings with Kung Fu Tea (same counter).",
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 14,
@@ -677,7 +755,13 @@
           "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJR7oJX4O3t4kRMk9wMjj9S9A",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Luna%20Hall%20DC%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJR7oJX4O3t4kRMk9wMjj9S9A",
+      "apple_place_id": "IB631F771560A032",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IB631F771560A032",
+      "map_listing_note": "No separate map listing; links go to Luna Hall.",
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 15,
@@ -723,7 +807,13 @@
           "url": "https://www.ubereats.com/store/tous-les-jours-luna-hall-dc/tBf7jCZwVM2l1EP8cp6GJw"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJcwdkDgC3t4kRsG5R5SWV43I",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tous%20Les%20Jours%20Bakery%20and%20Cafe%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJcwdkDgC3t4kRsG5R5SWV43I",
+      "apple_place_id": "IE21A97CB3DFE45FA",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IE21A97CB3DFE45FA",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 16,
@@ -765,7 +855,13 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/tkk-fried-chicken-dc"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJR7oJX4O3t4kRMk9wMjj9S9A",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Luna%20Hall%20DC%2C%20625%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJR7oJX4O3t4kRMk9wMjj9S9A",
+      "apple_place_id": "IB631F771560A032",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IB631F771560A032",
+      "map_listing_note": "No separate map listing; links go to Luna Hall.",
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 17,
@@ -810,7 +906,13 @@
         "credit": "AgnosticPreachersKid, CC BY-SA 4.0, Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "url": "https://commons.wikimedia.org/wiki/File:703-707_6th_Street_NW.jpg"
-      }
+      },
+      "google_place_id": "ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DAIKAYA%20Izakaya%20and%20Ramen%20Shop%2C%20705%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
+      "apple_place_id": "IA39E97458305ED19",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IA39E97458305ED19",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 18,
@@ -848,7 +950,13 @@
           "url": "https://www.daikaya.com/location/daikaya/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DAIKAYA%20Izakaya%20and%20Ramen%20Shop%2C%20705%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
+      "apple_place_id": "I8AFE09099E0C74B4",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I8AFE09099E0C74B4",
+      "map_listing_note": "Google lists Daikaya's two floors as one place; Apple lists the Izakaya separately.",
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 19,
@@ -886,7 +994,13 @@
           "url": "https://www.bantamking.com/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJFcDpYo63t4kRC8H3XfLixYM",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bantam%20King%2C%20501%20G%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJFcDpYo63t4kRC8H3XfLixYM",
+      "apple_place_id": "IFC55E550CEB018DA",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IFC55E550CEB018DA",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 20,
@@ -924,7 +1038,13 @@
           "url": "https://kurasushi.com/locations/washington-dc/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJXRZ61Oi3t4kROXt9nd0Uo2w",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kura%20Revolving%20Sushi%20Bar%2C%20614%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJXRZ61Oi3t4kROXt9nd0Uo2w",
+      "apple_place_id": "I3C83AEBC123A894E",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I3C83AEBC123A894E",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 21,
@@ -966,7 +1086,13 @@
           "url": "https://dc.eater.com/venue/47463/pho-88-noodles-and-grill"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJAz6b4I23t4kRZtGsSlZMVsU",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%2088%20Noodles%20%26%20Grill%2C%20608%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJAz6b4I23t4kRZtGsSlZMVsU",
+      "apple_place_id": "I6D4CB096337656C3",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=I6D4CB096337656C3",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     },
     {
       "rank": 22,
@@ -1004,7 +1130,14 @@
           "url": "https://www.shareteadcchinatown.com/"
         }
       ],
-      "photo": null
+      "photo": null,
+      "google_place_id": "ChIJVVXmz423t4kRcZqX2kurNDs",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sharetea%20DC%20Chinatown%2C%20519%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJVVXmz423t4kRcZqX2kurNDs",
+      "apple_place_id": "IBD209825185C7088",
+      "apple_maps_url": "https://maps.apple.com/place?place-id=IBD209825185C7088",
+      "map_listing_note": null,
+      "listings_checked": "2026-11-26"
     }
-  ]
+  ],
+  "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared)."
 }

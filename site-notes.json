@@ -1,12 +1,12 @@
 {
-  "_about": "Visible 'Check before you go' notes shown on place pages. Keyed by rank. Derived from the Known data caveats in BRIEF.md (Nov 26, 2026). Remove a note once the issue is re-verified.",
-  "2": "The restaurant's website (ambrosiadc.vercel.app) was down on November 26, 2026. Hours come from a September 2026 PoPville report quoting the restaurant.",
-  "4": "A Washingtonian report (October 2025) said the lease was up in September 2026. Listings as of November 2026 still show it open and no closure notice was found, but confirm before you go.",
+  "_about": "Visible 'Check before you go' notes shown on place pages. Keyed by rank. From the caveats in BRIEF.md plus Claude's Google / Apple Maps / website check on Nov 26, 2026. Remove a note once the issue is re-verified.",
+  "2": "The restaurant's website (ambrosiadc.vercel.app) was offline on November 26, 2026. Google and Apple Maps listings are active; hours come from a September 2026 PoPville report quoting the restaurant and match Apple Maps.",
+  "4": "A Washingtonian report (October 2025) said the lease was up in September 2026. As of November 26, 2026, the restaurant's site, Google and Apple Maps all list it as open with the hours shown, but confirm before you go.",
+  "6": "The restaurant's ordering site lists it as closed on Thursdays; its Google listing shows daily hours. Call ahead on a Thursday.",
   "7": "Hours come from directory listings, not an official page.",
-  "8": "The opening time is unverified. The DowntownDC BID has listed 10:30 a.m.; some directories now show 4:30 p.m.",
-  "9": "Hours come from directory listings, not an official page.",
+  "8": "Opening times come from the Google listing. Older listings showed a 10:30 a.m. opening, so call ahead if you're counting on an early visit.",
+  "9": "Hours come from the Google and Apple Maps listings, which agree. The restaurant's website did not load on November 26, 2026.",
   "12": "The description mentions 11 a.m.–9:30 p.m.; the hours shown in the facts are Luna Hall's posted hours. Check with the stall.",
-  "13": "This stall appears in current Luna Hall listings, but TKK's national site does not list the address. Confirm before you go.",
-  "15": "Tous les Jours lists this location as open, while Luna Hall's site still called the stall 'Coming Soon' on November 26, 2026. The description mentions 11:15 a.m.–10:30 p.m.; the facts show Luna Hall's hours.",
-  "20": "Regular hours shown. Holiday hours may differ (Thanksgiving week 2026: closed Thursday, open until 9 p.m. Friday)."
+  "15": "The description mentions 11:15 a.m.–10:30 p.m.; the facts show Luna Hall's hours, which match the bakery's Google and Apple Maps listings.",
+  "20": "Hours vary: Kura's own page showed Friday until 9 p.m. during Thanksgiving week, and its Google listing shows Friday until 10 p.m. Check on the day."
 }

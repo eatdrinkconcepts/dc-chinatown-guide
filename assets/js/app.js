@@ -169,6 +169,12 @@
     row("Website", p.website ? '<a href="' + esc(p.website) + '" rel="noopener" target="_blank">' + esc(hostOf(p.website)) + "</a>" : "");
     row("Instagram", p.instagram ? (p.instagram_url ? '<a href="' + esc(p.instagram_url) + '" rel="noopener" target="_blank">' + esc(p.instagram) + "</a>" : esc(p.instagram)) +
       (p.instagram_scope === "brand" ? '<span class="small">Brand account</span>' : "") : "");
+    if (p.google_maps_url || p.apple_maps_url) {
+      var maps = [];
+      if (p.google_maps_url) maps.push('<a href="' + esc(p.google_maps_url) + '" rel="noopener" target="_blank">Google Maps ↗</a>');
+      if (p.apple_maps_url) maps.push('<a href="' + esc(p.apple_maps_url) + '" rel="noopener" target="_blank">Apple Maps ↗</a>');
+      row("Map listings", maps.join(" · ") + (p.map_listing_note ? '<span class="small">' + esc(p.map_listing_note) + "</span>" : ""));
+    }
     row("For groups", esc(p.group_notes));
 
     var sources = (p.sources || []).length
