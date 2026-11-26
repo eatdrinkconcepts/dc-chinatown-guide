@@ -67,7 +67,7 @@
     if (acts.length) meta += '<span class="card-acts">' + acts.join(" · ") + "</span>";
     if (state.notes[p.rank]) meta += '<span class="card-flag">⚠ Check before you go</span>';
     var ph = p.photo && p.photo.file
-      ? '<div class="card-photo"><img src="' + esc(p.photo.file) + '" alt="" loading="lazy" onerror="var x=this.closest(\'.card-photo,figure\');if(x){var c=x.closest(\'.card\');x.remove();if(c)c.classList.remove(\'has-photo\')}"><span class="card-credit">' + esc(p.photo.credit) + "</span></div>"
+      ? '<div class="card-photo"><img src="' + esc(p.photo.file) + '" alt="" loading="lazy"' + (p.photo.card_focus ? ' style="object-position:' + esc(p.photo.card_focus) + '"' : "") + ' onerror="var x=this.closest(\'.card-photo,figure\');if(x){var c=x.closest(\'.card\');x.remove();if(c)c.classList.remove(\'has-photo\')}"><span class="card-credit">' + esc(p.photo.credit) + "</span></div>"
       : "";
     return '<a class="card' + (ph ? " has-photo" : "") + '" href="#place-' + p.rank + '">' + ph + pin(p) +
       '<div class="card-title">' + esc(p.name) + tags + "</div>" +

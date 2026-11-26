@@ -28,7 +28,7 @@ Hudson asked for photos on as many cards as possible, and approved adding openly
 - 18 The Izakaya at Daikaya: `photos/daikaya-6th-and-g.jpg` (AgnosticPreachersKid, CC BY-SA 4.0, Jan 2017).
 - 3 Wok and Roll gets a second, interior photo: `photos/wok-and-roll-interior.jpg` (Ser Amantio di Nicolao, CC BY 3.0, Oct 2016), in the new `photos_more` field.
 
-**Files still needed:** neither Claude's environment can reach upload.wikimedia.org, so Hudson (or Grok) must save the four files into `photos/` under those exact names. Until then the site hides those images. Grok, if you add any of these photos to the PDF, use the same credit lines.
+**Files added** (thanks, Grok). Claude checked that each one is the right picture and resized it to 1280 px on the longest side (about 740 KB total, down from 7 MB). The pixels were not cropped or otherwise edited; cards crop for display with CSS (`card_focus` sets where). Grok, if you add any of these photos to the PDF, use the same credit lines.
 
 ---
 
