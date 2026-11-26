@@ -18,7 +18,7 @@
   };
   var CC_ADDRESS = "801 Mount Vernon Pl NW, Washington, DC 20001";
 
-  var state = { data: null, notes: {}, events: null, places: [], byRank: {}, svgText: null, lastPlacesHash: "#places" };
+  var state = { data: null, notes: {}, events: null, guides: null, attractions: {}, places: [], byRank: {}, svgText: null, lastPlacesHash: "#places" };
   var main = document.getElementById("main");
 
   // ---------- helpers ----------
@@ -83,6 +83,9 @@
     var featured = state.places.filter(function (p) { return p.featured; })
       .sort(function (a, b) { return (a.featured_order || a.rank) - (b.featured_order || b.rank); });
     main.querySelector("#featured-cards").innerHTML = featured.map(function (p) { return card(p); }).join("");
+    var gbox = main.querySelector("#home-guides"), G = (state.guides && state.guides.guides) || [];
+    if (gbox && G.length) gbox.innerHTML = '<div class="section-head"><h2>Guides</h2><a href="#guides">All guides →</a></div><div class="guide-list">' +
+      G.slice(0, 3).map(function (g) { return '<a class="guide-card" href="#guide-' + esc(g.id) + '"><span class="guide-kind">' + esc(g.kind) + '</span><h3>' + esc(g.title) + '</h3><p>' + esc(g.dek) + "</p></a>"; }).join("") + "</div>";
     var up = upcoming().slice(0, 3), box = main.querySelector("#home-events");
     if (box && up.length) box.innerHTML = '<div class="section-head"><h2>Coming up</h2><a href="#events">All events →</a></div><div class="events">' + up.map(function (e) { return eventCard(e, false); }).join("") + "</div>";
     document.title = "DC Chinatown Restaurant Guide · The Lion's Path";
@@ -315,6 +318,79 @@
     }
   }
 
+  // ---------- guides ----------
+  function gmaps(q) { return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q + ", Washington, DC"); }
+  function viewGuides() {
+    setNav("guides");
+    document.title = "Guides · DC Chinatown Restaurant Guide";
+    var G = (state.guides && state.guides.guides) || [];
+    var html = '<h1 style="margin:22px 0 4px">Guides</h1>' +
+      '<p style="color:var(--muted);margin:0 0 14px;font-size:.92rem">Chinatown is small, but the arena, the theaters, the Smithsonian and the Convention Center are all a short walk away. These guides connect them, with somewhere good to eat between each stop.</p>' +
+      '<div class="guide-list">' + G.map(function (g) {
+        return '<a class="guide-card" href="#guide-' + esc(g.id) + '"><span class="guide-kind">' + esc(g.kind) + '</span><h2>' + esc(g.title) + '</h2><p>' + esc(g.dek) + "</p></a>";
+      }).join("") + "</div>";
+    var A = (state.attList || []).slice().sort(function (a, b) { return a.walk_archway - b.walk_archway; });
+    if (A.length) {
+      html += '<h2 class="month">Within walking distance</h2><p class="group-note">Minutes on foot from the Friendship Archway (7th and H) and from the Convention Center (801 Mount Vernon Pl NW), at an easy pace.</p><div class="att-list">' +
+        A.map(attCard).join("") + "</div>";
+    }
+    main.innerHTML = html;
+  }
+  function attCard(a) {
+    return '<article class="att">' +
+      '<div class="att-head"><h3>' + esc(a.name) + '</h3><span class="att-kind">' + esc(a.kind) + "</span></div>" +
+      '<div class="att-walk">' + (a.walk_archway ? a.walk_archway + " min from the Archway" : "At the Archway") + " · " + (a.walk_cc ? a.walk_cc + " min from the Convention Center" : "At the Convention Center") + "</div>" +
+      '<p class="att-sum">' + esc(a.summary) + "</p>" +
+      (a.current ? '<p class="att-cur"><strong>Now:</strong> ' + esc(a.current) + "</p>" : "") +
+      '<dl class="att-facts"><dt>Where</dt><dd><a href="' + gmaps(a.address) + '" target="_blank" rel="noopener">' + esc(a.address) + ' ↗</a></dd>' +
+      "<dt>Hours</dt><dd>" + esc(a.hours) + "</dd><dt>Cost</dt><dd>" + esc(a.cost) + "</dd></dl>" +
+      (a.url ? '<a class="att-link" href="' + esc(a.url) + '" target="_blank" rel="noopener">Official site ↗</a>' : "") +
+      "</article>";
+  }
+  function viewGuide(id) {
+    setNav("guides");
+    var g = ((state.guides && state.guides.guides) || []).filter(function (x) { return x.id === id; })[0];
+    if (!g) { viewNotFound(); return; }
+    document.title = g.title + " · DC Chinatown Restaurant Guide";
+    var n = 0;
+    var html = '<a class="back" href="#guides">← All guides</a><span class="guide-kind">' + esc(g.kind) + '</span><h1 class="guide-title">' + esc(g.title) + '</h1>' +
+      '<p class="guide-dek">' + esc(g.dek) + '</p><div class="prose"><p class="lead">' + esc(g.intro) + "</p></div>";
+    g.sections.forEach(function (s) {
+      html += '<h2 class="month">' + esc(s.heading) + '</h2><ol class="stops">';
+      s.stops.forEach(function (st) {
+        n++;
+        var p = st.place ? state.byRank[st.place] : null, a = st.attraction ? state.attractions[st.attraction] : null;
+        var meta = "";
+        if (p) {
+          meta = pin(p) + '<div class="stop-meta"><a href="#place-' + p.rank + '"><strong>' + esc(p.name) + "</strong></a> · " + esc(p.cuisine_detail) +
+            '<br><span>' + esc(p.address_street || p.address) + " · " + esc(walkText(p)) + " from the Convention Center</span>" +
+            (state.notes[p.rank] ? '<br><span class="card-flag">⚠ Check before you go</span>' : "") + "</div>";
+        } else if (a) {
+          meta = '<span class="pin att-pin" aria-hidden="true">★</span><div class="stop-meta"><strong>' + esc(a.name) + "</strong>" +
+            '<br><span><a href="' + gmaps(a.address) + '" target="_blank" rel="noopener">' + esc(a.address) + "</a> · " + esc(a.hours) + "</span></div>";
+        }
+        html += '<li class="stop"><div class="stop-num">' + n + "</div><div>" +
+          (st.time ? '<div class="event-when">' + esc(st.time) + "</div>" : "") +
+          '<h3 class="stop-title">' + esc(st.title) + "</h3>" +
+          (st.text ? '<p class="stop-text">' + esc(st.text) + "</p>" : "") +
+          (meta ? '<div class="stop-place">' + meta + "</div>" : "") +
+          (p ? '<div class="stop-acts">' + stopActs(p) + "</div>" : (a && a.url ? '<div class="stop-acts"><a href="' + esc(a.url) + '" target="_blank" rel="noopener">Official site ↗</a></div>' : "")) +
+          "</div></li>";
+      });
+      html += "</ol>";
+    });
+    if ((g.tips || []).length) html += '<h2 class="month">Good to know</h2><ul class="tips">' + g.tips.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+    html += '<p class="group-note">Hours, shows and events change; each stop links to its current details. Written ' + esc(state.guides.updated) + ". No restaurant has a partnership with The Lion's Path or paid to appear.</p>";
+    main.innerHTML = html;
+  }
+  function stopActs(p) {
+    var out = ['<a href="#place-' + p.rank + '">Details</a>'];
+    if (p.reserve && p.reserve.url) out.push('<a href="' + esc(p.reserve.url) + '" target="_blank" rel="noopener">' + esc(p.reserve.label || "Reserve") + " ↗</a>");
+    if ((p.order || []).length) out.push('<a href="' + esc(p.order[0].url) + '" target="_blank" rel="noopener">' + esc(p.order[0].label) + " ↗</a>");
+    if (p.menu && p.menu.url) out.push('<a href="' + esc(p.menu.url) + '" target="_blank" rel="noopener">Menu ↗</a>');
+    return out.join(" · ");
+  }
+
   // ---------- events ----------
   var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -435,6 +511,8 @@
     else if ((m = h.match(/^places-([a-z0-9-]+)$/))) viewPlaces({ c: m[1] });
     else if ((m = h.match(/^place-(\d+)$/))) viewPlace(m[1]);
     else if (h === "events") viewEvents();
+    else if (h === "guides") viewGuides();
+    else if ((m = h.match(/^guide-([a-z0-9-]+)$/))) viewGuide(m[1]);
     else if (h === "about") viewAbout();
     else if (h === "credits") scrolled = viewAbout("credits");
     else viewNotFound();
@@ -449,11 +527,16 @@
     Promise.all([
       fetch("guide-data.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
       fetch("site-notes.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
-      fetch("events.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      fetch("events.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch("guides.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch("attractions.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]).then(function (res) {
       state.data = res[0];
       state.notes = res[1] || {};
       state.events = res[2];
+      state.guides = res[3];
+      state.attList = (res[4] && res[4].attractions) || [];
+      state.attList.forEach(function (a) { state.attractions[a.id] = a; });
       state.places = (state.data.places || []).slice().sort(function (a, b) { return a.rank - b.rank; });
       state.places.forEach(function (p) { state.byRank[p.rank] = p; });
       fillAsOf(document);

@@ -1,0 +1,433 @@
+{
+  "_about": "Editorial guides for the website, in the spirit of Time Out itineraries and the NYT's 36 Hours. Restaurant facts come only from guide-data.json; attraction facts from attractions.json (with sources). Written Nov 26, 2026 for the Dec 2026–Feb 2027 season; re-check dated items before publishing. No offers, deals or implied partnerships (BRIEF.md).",
+  "updated": "2026-11-26",
+  "guides": [
+    {
+      "id": "36-hours",
+      "title": "36 Hours in Chinatown and Penn Quarter",
+      "kind": "Weekend",
+      "dek": "A Friday-to-Sunday plan for the blocks around the Friendship Archway: two museums, a theater or a game, and noodles at every turn.",
+      "intro": "Chinatown proper covers barely a dozen blocks, and much of it has been sold to national chains. That is exactly why it rewards a plan. Within a ten-minute walk of the Friendship Archway sit two Smithsonian museums, the house where Lincoln was shot, three serious theaters and an NBA and NHL arena. Treat the neighborhood as the place you eat between them, and the weekend fills itself.",
+      "sections": [
+        {
+          "heading": "Friday",
+          "stops": [
+            {
+              "time": "5 p.m.",
+              "title": "Start under the arch",
+              "attraction": "friendship-archway",
+              "text": "Walk the 600 and 700 blocks of H Street first. Look up: city design rules require Chinese characters on every storefront, which is how the chains ended up with signs of their own. The On Leong and Hip Sing merchants' associations bought these buildings in the 1930s, after the first Chinatown on Pennsylvania Avenue was cleared."
+            },
+            {
+              "time": "6 p.m.",
+              "title": "American Chinese, reworked",
+              "place": 1,
+              "text": "Lucky Danger sits at 7th and D, three blocks south of Chinatown's official boundary. Tim Ma's kitchen treats General Tso's chicken and crab rangoon as dishes worth rethinking, and there are two cocktail bars. Book ahead on Fridays."
+            },
+            {
+              "time": "8 p.m.",
+              "title": "A show",
+              "attraction": "harman-hall",
+              "text": "Through January 10, A Midsummer Night's Dream plays Harman Hall. Woolly Mammoth's Hanukkah Spectacular runs through December 20, and from January 23 the Klein Theatre has A Raisin in the Sun. Or, if the Caps or Wizards are home, the arena is three minutes from the Archway."
+            },
+            {
+              "time": "11 p.m.",
+              "title": "Cantonese after hours",
+              "place": 8,
+              "text": "New Big Wong is the neighborhood's late room, down a flight of stairs on H Street and open until 3 a.m. on Fridays."
+            }
+          ]
+        },
+        {
+          "heading": "Saturday",
+          "stops": [
+            {
+              "time": "10:30 a.m.",
+              "title": "Egg tarts at opening",
+              "place": 4,
+              "text": "Joy Luck House opens at 10:30 a.m. Order from the glass case: warm egg tarts, mooncakes, a taro boba."
+            },
+            {
+              "time": "11:30 a.m.",
+              "title": "Two museums, one building",
+              "attraction": "portrait-gallery",
+              "text": "Doors open at 11:30 a.m. Give the Portrait Gallery's presidents an hour, then cross the courtyard to American art."
+            },
+            {
+              "time": "2 p.m.",
+              "title": "Rice noodles before they run out",
+              "place": 9,
+              "text": "China Boy is a daytime counter, done by 5 p.m. and closed Tuesdays. The order is the dry-fried beef chow fun, made with the house's own rice noodles."
+            },
+            {
+              "time": "3 p.m.",
+              "title": "Ford's Theatre",
+              "attraction": "fords-theatre",
+              "text": "Timed entries run every half hour until 4 p.m. Same-day tickets are free at the box office; reserving online costs a small fee."
+            },
+            {
+              "time": "7 p.m.",
+              "title": "Upstairs at Daikaya",
+              "place": 18,
+              "text": "The second-floor izakaya does small plates, cocktails and Japanese whisky. Reserve on OpenTable, and leave the ramen for another day: it's served only downstairs."
+            },
+            {
+              "time": "9 p.m.",
+              "title": "Or a game",
+              "attraction": "capital-one-arena",
+              "text": "If the Caps or Wizards are home, the arena is three minutes from the Archway."
+            }
+          ]
+        },
+        {
+          "heading": "Sunday",
+          "stops": [
+            {
+              "time": "11 a.m.",
+              "title": "Roast duck noodle soup",
+              "place": 7,
+              "text": "Watch the noodles being pulled in Chinatown Express's front window on 6th Street, then order the roast duck noodle soup."
+            },
+            {
+              "time": "12:30 p.m.",
+              "title": "A synagogue that moved",
+              "attraction": "capital-jewish-museum",
+              "text": "Walk east to the Capital Jewish Museum. Admission is free with a suggested donation; bring ID if you're 18 or older."
+            },
+            {
+              "time": "2:30 p.m.",
+              "title": "Beef noodles for the road",
+              "place": 10,
+              "text": "Back on 6th Street, Cinnara builds its bowls on a slow-simmered beef bone broth. Try the Mala Spicy Beef Noodle Soup or the Taiwan Braised Beef Noodle Soup."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Gallery Place–Chinatown Metro (Red, Green and Yellow lines) lets you out at the Archway.",
+        "Hours change. Check each place's page, linked from every stop, before you go."
+      ]
+    },
+    {
+      "id": "game-night",
+      "title": "Game Night at Capital One Arena",
+      "kind": "Before and after",
+      "dek": "Where to eat before puck drop or tipoff, and where to go after the final horn.",
+      "intro": "The arena takes up a whole block of Chinatown, so the neighborhood's best moves are minutes from your seat. Mid-renovation, the building is open but still changing. Eat before you go in, and keep a late-night plan in your pocket for afterward.",
+      "sections": [
+        {
+          "heading": "Before the game",
+          "stops": [
+            {
+              "time": "About 2 hours before",
+              "title": "Soup dumplings across H Street",
+              "place": 11,
+              "text": "Luna Hall is a three-minute walk from the arena. Dumpling District's Rainbow Soup Dumplings platter (one of each flavor) is the quickest way to feed a group."
+            },
+            {
+              "time": "Same hall",
+              "title": "Fried chicken and a drink",
+              "place": 13,
+              "text": "TKK's tenders come original, crispy mild or crispy spicy. Wait for your order at Luna Bar, a few steps away."
+            },
+            {
+              "time": "Sit-down option",
+              "title": "Hand-pulled lamen",
+              "place": 5,
+              "text": "Reren, upstairs on 7th Street, pulls its noodles by hand and serves until 10 p.m. Its full bar also pours bubble tea."
+            },
+            {
+              "time": "Chicken, two ways",
+              "title": "Bantam King",
+              "place": 19,
+              "text": "The Daikaya team's chicken ramen and fried chicken, at 5th and G. Weekday happy hour runs from 5 to 7 p.m."
+            }
+          ]
+        },
+        {
+          "heading": "After the game",
+          "stops": [
+            {
+              "time": "Until 2 or 3 a.m.",
+              "title": "The late-night standby",
+              "place": 8,
+              "text": "New Big Wong serves Cantonese food until 2 a.m. Sunday to Thursday and 3 a.m. on Fridays and Saturdays."
+            },
+            {
+              "time": "All night, Thursday to Sunday",
+              "title": "Pho at any hour",
+              "place": 2,
+              "text": "Ambrosia stays open 24 hours from Thursday morning through Monday night, with pho, banh mi and wok dishes."
+            },
+            {
+              "time": "Sing it off",
+              "title": "Karaoke at Wok and Roll",
+              "place": 3,
+              "text": "Next door to the restaurant, private karaoke rooms run until 3 a.m. on Fridays and Saturdays. Book a room ahead for a group."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Check the arena's event page for door times and its bag policy before you leave.",
+        "Luna Hall, Reren, Ambrosia and Wok and Roll are all within five minutes of the arena's 7th Street side."
+      ]
+    },
+    {
+      "id": "dinner-and-a-show",
+      "title": "Dinner and a Show",
+      "kind": "Theater night",
+      "dek": "Penn Quarter has four stages within a ten-minute walk. Here's how to eat around them.",
+      "intro": "The Shakespeare Theatre Company has two houses here, Woolly Mammoth stages new work off 7th Street, and Ford's Theatre is a working playhouse as well as a historic site. Curtains are mostly at 7:30 or 8 p.m., which leaves room for an early dinner, or for a late one if you'd rather eat after the show.",
+      "sections": [
+        {
+          "heading": "On stage this season",
+          "stops": [
+            {
+              "time": "Dec 4–Jan 10",
+              "title": "A Midsummer Night's Dream",
+              "attraction": "harman-hall",
+              "text": "Simon Godwin directs Shakespeare's comedy at Harman Hall, across F Street from the arena."
+            },
+            {
+              "time": "Jan 23–Mar 7",
+              "title": "A Raisin in the Sun",
+              "attraction": "klein-theatre",
+              "text": "Tim Bond directs Lorraine Hansberry's play at the Klein Theatre, three blocks south on 7th Street. The run has been extended."
+            },
+            {
+              "time": "Through Dec 20",
+              "title": "Hanukkah Spectacular",
+              "attraction": "woolly-mammoth",
+              "text": "Woolly's holiday show was extended through December 20."
+            },
+            {
+              "time": "Ongoing",
+              "title": "Ford's Theatre",
+              "attraction": "fords-theatre",
+              "text": "See the season calendar on fords.org. Daytime visits to the historic site run until 4 p.m."
+            }
+          ]
+        },
+        {
+          "heading": "Before the curtain",
+          "stops": [
+            {
+              "time": "5:30 p.m.",
+              "title": "Lucky Danger",
+              "place": 1,
+              "text": "Its own pre-show pitch names Woolly, Ford's and the Shakespeare Theatre, and it's a short walk to all three. Reservations are suggested."
+            },
+            {
+              "time": "5 p.m.",
+              "title": "Bantam King",
+              "place": 19,
+              "text": "A fast, focused dinner: chicken ramen or fried chicken, with happy hour until 7 on weekdays."
+            },
+            {
+              "time": "Walk in",
+              "title": "Daikaya Ramen Shop",
+              "place": 17,
+              "text": "Sapporo-style ramen, walk-in only. Go early if your show starts at 7:30."
+            }
+          ]
+        },
+        {
+          "heading": "After the bows",
+          "stops": [
+            {
+              "time": "Until 10:30 p.m. Fri–Sat",
+              "title": "Upstairs at Daikaya",
+              "place": 18,
+              "text": "Japanese whisky and small plates, with DJs on weekends."
+            },
+            {
+              "time": "Late",
+              "title": "New Big Wong",
+              "place": 8,
+              "text": "Still serving long after the theaters empty out."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Romeo and Juliet follows at the Klein Theatre, April 13 to May 16, 2027."
+      ]
+    },
+    {
+      "id": "museum-afternoon",
+      "title": "An Afternoon at the Portrait Gallery",
+      "kind": "Museums",
+      "dek": "Two free Smithsonian museums under one roof, with a noodle lunch before and egg tarts after.",
+      "intro": "The National Portrait Gallery and the Smithsonian American Art Museum share one block at 8th and F, four minutes from the Archway. Both are free, both open at 11:30 a.m., and both stay open until 7 p.m. That late close is rare on the Mall and makes an afternoon here easy to plan.",
+      "sections": [
+        {
+          "heading": "Lunch first",
+          "stops": [
+            {
+              "time": "Before 5 p.m.",
+              "title": "China Boy",
+              "place": 9,
+              "text": "House-made rice noodles at a daytime counter. Closed Tuesdays."
+            },
+            {
+              "time": "Sit down",
+              "title": "Chinatown Garden",
+              "place": 6,
+              "text": "A long-running Cantonese and Hong Kong-style room on H Street."
+            },
+            {
+              "time": "Pho",
+              "title": "PHO 88 Noodles & Grill",
+              "place": 21,
+              "text": "Vietnamese noodle soups, broken rice plates and Vietnamese coffee."
+            }
+          ]
+        },
+        {
+          "heading": "The museums",
+          "stops": [
+            {
+              "time": "11:30 a.m.–7 p.m.",
+              "title": "National Portrait Gallery and American Art Museum",
+              "attraction": "portrait-gallery",
+              "text": "Free, with no passes needed. Use the F Street or G Street entrance."
+            },
+            {
+              "time": "Through Dec 23",
+              "title": "The Holiday Market outside",
+              "attraction": "holiday-market",
+              "text": "In December, F Street outside the museums fills with more than 115 vendors."
+            },
+            {
+              "time": "If you have time",
+              "title": "National Building Museum",
+              "attraction": "building-museum",
+              "text": "Seven minutes east, the Great Hall is worth a look for its scale alone."
+            }
+          ]
+        },
+        {
+          "heading": "Something sweet",
+          "stops": [
+            {
+              "time": "Until 8:30 p.m.",
+              "title": "Joy Luck House",
+              "place": 4,
+              "text": "Egg tarts, mooncakes and taro boba. Closed Mondays."
+            },
+            {
+              "time": "Until 10 p.m.",
+              "title": "Tous les Jours",
+              "place": 15,
+              "text": "The Korean bakery café inside Luna Hall."
+            },
+            {
+              "time": "Bubble tea",
+              "title": "Sharetea",
+              "place": 22,
+              "text": "Near the corner of 5th and H."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "The museums close on Dec 25."
+      ]
+    },
+    {
+      "id": "convention-day",
+      "title": "Convention Day",
+      "kind": "Walter E. Washington Convention Center",
+      "dek": "Lunch in 20 minutes, a dinner table for 12, and somewhere still open at midnight, all within a 12-minute walk of the Convention Center.",
+      "intro": "Every walk time in this guide starts at the Convention Center's south side on Mount Vernon Square. Head south on 7th Street and you're in Chinatown in about five minutes. These are the moves for a day of sessions and badges.",
+      "sections": [
+        {
+          "heading": "A fast lunch",
+          "stops": [
+            {
+              "time": "5 min",
+              "title": "Reren Lamen & Bar",
+              "place": 5,
+              "text": "The closest sit-down meal: hand-pulled noodles and dumplings."
+            },
+            {
+              "time": "7 min",
+              "title": "Kura Revolving Sushi Bar",
+              "place": 20,
+              "text": "Sushi on a conveyor belt. Quick if you're eating alone."
+            },
+            {
+              "time": "7 min",
+              "title": "Luna Hall",
+              "place": 11,
+              "text": "Soup dumplings, poke and fried chicken under one roof. Dumpling District and Poke Ninja take online orders through Luna Hall."
+            },
+            {
+              "time": "7 min",
+              "title": "China Boy",
+              "place": 9,
+              "text": "Rice noodles to go. Daytime only, closed Tuesdays."
+            }
+          ]
+        },
+        {
+          "heading": "Dinner with the group",
+          "stops": [
+            {
+              "time": "12 min",
+              "title": "Lucky Danger",
+              "place": 1,
+              "text": "Book the dining room on OpenTable. For a team event, the mahjong room hosts private classes for up to 15 with three weeks' notice."
+            },
+            {
+              "time": "8 min",
+              "title": "Wok and Roll",
+              "place": 3,
+              "text": "Dinner, then private karaoke rooms next door, booked separately."
+            },
+            {
+              "time": "10 min",
+              "title": "The Izakaya at Daikaya",
+              "place": 18,
+              "text": "Small plates for a table that wants to share. Reserve on OpenTable."
+            },
+            {
+              "time": "7 min",
+              "title": "Luna Bar",
+              "place": 16,
+              "text": "Luna Hall's lounge can be booked for events."
+            }
+          ]
+        },
+        {
+          "heading": "After the reception",
+          "stops": [
+            {
+              "time": "7 min",
+              "title": "Ambrosia",
+              "place": 2,
+              "text": "Open around the clock from Thursday through Monday night."
+            },
+            {
+              "time": "7 min",
+              "title": "New Big Wong",
+              "place": 8,
+              "text": "Cantonese until 2 or 3 a.m."
+            },
+            {
+              "time": "6 min",
+              "title": "Sixth & I",
+              "attraction": "sixth-and-i",
+              "text": "Check its calendar for author talks and concerts a block from the Archway."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Many places in this guide take online orders. Use the Order online filter on the Places page.",
+        "No restaurant in this guide has agreed to anything with The Lion's Path, and none offers attendees a deal through this guide."
+      ]
+    }
+  ]
+}

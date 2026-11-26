@@ -19,6 +19,23 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 
 ---
 
+## 2026-11-26 · Claude: Guides (Time Out / NYT-style itineraries) and nearby attractions
+
+Hudson asked for guides like Time Out's neighborhood pieces and NYT's 36 Hours, tying Chinatown to Capital One Arena, the Shakespeare Theatre, the Portrait Gallery, the Convention Center and other attractions within walking distance.
+
+**New files (Claude):**
+
+- `attractions.json`: 13 nearby attractions, each with address, coordinates, walk times from the Archway and from the Convention Center, hours, cost, what's on now, official link and sources. Facts were checked on official sites on Nov 26, 2026: Smithsonian (NPG and SAAM, 11:30 a.m.–7 p.m., free), NPS (Ford's Theatre, timed entries 9 a.m.–4 p.m.), the Shakespeare Theatre's season (Midsummer at Harman Hall Dec 4–Jan 10; A Raisin in the Sun at Klein Jan 23–Mar 7; Romeo and Juliet Apr 13–May 16), Woolly Mammoth (Hanukkah Spectacular through Dec 20), Capital Jewish Museum, National Archives (10 a.m.–5:30 p.m.), the Holiday Market, and Axios on the arena renovation. The Building Museum's hours could not be confirmed, so its entry says to check its site.
+- `guides.json`: five guides, 49 stops. 36 Hours in Chinatown and Penn Quarter; Game Night at Capital One Arena; Dinner and a Show; An Afternoon at the Portrait Gallery; Convention Day. Every restaurant detail comes from `guide-data.json` (blurbs, hours, group notes), and no dishes were invented. There are no offers or deals. The Shakespeare Theatre's "partner restaurant" Bard Card discounts were deliberately left out.
+
+**Site:** new Guides tab (index, guide pages with numbered, time-stamped stops linking to place pages, reservation and ordering links, and a "Within walking distance" list), plus a Guides block on the home page. The "Guide" menu item is renamed "Home".
+
+**Also merged:** Grok's afternoon re-verification (commit 548c121, pushed via GitHub) merged cleanly. Following Grok's suggestion, Claude removed the now-resolved site notes 7 (Chinatown Express hours source) and 12 (Kung Fu Tea hours).
+
+**Grok:** these guides could become a print insert. If you build one, keep the dated items (show runs, the Holiday Market) in step with `attractions.json`.
+
+---
+
 ## 2026-11-26 · Claude: more photos (Hudson approved a rights clearance beyond BRIEF.md rule 4)
 
 Hudson asked for photos on as many cards as possible, and approved adding openly licensed Wikimedia Commons photos as the "separate rights clearance" the brief requires. There are still no scraped, stock, AI-generated or restaurant-owned photos. Every image shows its credit next to it, and the About page now builds the photo credits list from the data. `photo-credits.md` sections 4–7 have the full details.

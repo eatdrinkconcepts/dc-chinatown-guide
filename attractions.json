@@ -1,0 +1,286 @@
+{
+  "_about": "Attractions within walking distance of DC's Chinatown, used by guides.json. Walk times are Manhattan distance on the street grid at 3 mph, from the Friendship Archway (7th and H) and from the Convention Center's south side (801 Mount Vernon Pl NW). Hours and programs checked Nov 26, 2026; re-check before publishing.",
+  "checked": "2026-11-26",
+  "attractions": [
+    {
+      "id": "friendship-archway",
+      "name": "Friendship Archway",
+      "kind": "Landmark",
+      "address": "7th and H Streets NW",
+      "lat": 38.8996,
+      "lng": -77.0219,
+      "walk_archway": 0,
+      "walk_cc": 6,
+      "hours": "Always open",
+      "cost": "Free",
+      "url": null,
+      "summary": "Chinatown's front door since 1986: seven pagoda-style roofs, some 7,000 glazed tiles and 272 painted dragons, paid for jointly by Washington and Beijing.",
+      "sources": [
+        {
+          "label": "Guide copy (copy.md)",
+          "url": "#home"
+        }
+      ]
+    },
+    {
+      "id": "capital-one-arena",
+      "name": "Capital One Arena",
+      "kind": "Arena",
+      "address": "601 F St NW",
+      "lat": 38.8981,
+      "lng": -77.0209,
+      "walk_archway": 3,
+      "walk_cc": 9,
+      "hours": "Event days; check the event listing",
+      "cost": "Ticketed",
+      "url": "https://www.capitalonearena.com/",
+      "summary": "Home ice and home court for the Capitals and Wizards, and the city's biggest indoor concert room. It reopened for the 2026–27 season mid-renovation; much of the $1 billion-plus overhaul is still about a year away.",
+      "sources": [
+        {
+          "label": "Axios, Oct 7, 2026",
+          "url": "https://www.axios.com/local/washington-dc/2026/10/07/capital-one-arena-renovation-whats-new-2026"
+        }
+      ]
+    },
+    {
+      "id": "portrait-gallery",
+      "name": "National Portrait Gallery and Smithsonian American Art Museum",
+      "kind": "Museum",
+      "address": "8th and G Streets NW",
+      "lat": 38.8978,
+      "lng": -77.023,
+      "walk_archway": 4,
+      "walk_cc": 7,
+      "hours": "11:30 a.m.–7 p.m. daily; closed Dec 25",
+      "cost": "Free, no passes needed",
+      "url": "https://npg.si.edu/",
+      "summary": "Two Smithsonian museums share one Greek Revival block: presidents, poets and provocateurs on one side, American art on the other. Enter from F Street or G Street.",
+      "sources": [
+        {
+          "label": "Smithsonian: Portrait Gallery",
+          "url": "https://www.si.edu/museums/portrait-gallery"
+        },
+        {
+          "label": "Smithsonian: American Art Museum",
+          "url": "https://www.si.edu/museums/american-art-museum"
+        },
+        {
+          "label": "Portrait Gallery visitor info",
+          "url": "https://npg.si.edu/visit"
+        }
+      ]
+    },
+    {
+      "id": "harman-hall",
+      "name": "Shakespeare Theatre Company: Harman Hall",
+      "kind": "Theater",
+      "address": "610 F St NW",
+      "lat": 38.8968,
+      "lng": -77.0208,
+      "walk_archway": 5,
+      "walk_cc": 11,
+      "hours": "Performance nights",
+      "cost": "Ticketed",
+      "url": "https://www.shakespearetheatre.org/",
+      "summary": "The company's larger house, across F Street from the arena.",
+      "current": "A Midsummer Night's Dream, directed by Simon Godwin, with puppets by Basil Twist, Dec 4, 2026–Jan 10, 2027.",
+      "sources": [
+        {
+          "label": "Shakespeare Theatre Company 26/27 season",
+          "url": "https://www.shakespearetheatre.org/events/26-27-season/"
+        }
+      ]
+    },
+    {
+      "id": "klein-theatre",
+      "name": "Shakespeare Theatre Company: Klein Theatre",
+      "kind": "Theater",
+      "address": "450 7th St NW",
+      "lat": 38.8948,
+      "lng": -77.0218,
+      "walk_archway": 7,
+      "walk_cc": 13,
+      "hours": "Performance nights",
+      "cost": "Ticketed",
+      "url": "https://www.shakespearetheatre.org/",
+      "summary": "The company's original, more intimate house, three blocks south on 7th Street.",
+      "current": "A Raisin in the Sun (Lorraine Hansberry; directed by Tim Bond), extended, Jan 23–Mar 7, 2027. Then Romeo and Juliet, Apr 13–May 16, 2027.",
+      "sources": [
+        {
+          "label": "Shakespeare Theatre Company 26/27 season",
+          "url": "https://www.shakespearetheatre.org/events/26-27-season/"
+        }
+      ]
+    },
+    {
+      "id": "woolly-mammoth",
+      "name": "Woolly Mammoth Theatre Company",
+      "kind": "Theater",
+      "address": "641 D St NW",
+      "lat": 38.8953,
+      "lng": -77.0213,
+      "walk_archway": 7,
+      "walk_cc": 13,
+      "hours": "Performance nights",
+      "cost": "Ticketed",
+      "url": "https://www.woollymammoth.net/",
+      "summary": "New plays, often loud and seldom polite, in a modern house off 7th Street.",
+      "current": "Hanukkah Spectacular, extended through Dec 20, 2026.",
+      "sources": [
+        {
+          "label": "Woolly Mammoth",
+          "url": "https://www.woollymammoth.net/"
+        }
+      ]
+    },
+    {
+      "id": "fords-theatre",
+      "name": "Ford's Theatre National Historic Site",
+      "kind": "Historic site",
+      "address": "511 10th St NW",
+      "lat": 38.8967,
+      "lng": -77.0257,
+      "walk_archway": 8,
+      "walk_cc": 12,
+      "hours": "Daily; timed entries every half hour, 9 a.m.–4 p.m.",
+      "cost": "No entrance fee; timed ticket required (free same-day at the box office, or reserve online for a small fee)",
+      "url": "https://www.nps.gov/foth/",
+      "summary": "Where Lincoln was shot, with the museum below and the Petersen House, where he died, across the street. The theater itself may be closed some hours for rehearsals and performances.",
+      "sources": [
+        {
+          "label": "NPS: hours",
+          "url": "https://www.nps.gov/foth/planyourvisit/hours.htm"
+        },
+        {
+          "label": "NPS: fees and passes",
+          "url": "https://www.nps.gov/foth/planyourvisit/fees.htm"
+        }
+      ]
+    },
+    {
+      "id": "building-museum",
+      "name": "National Building Museum",
+      "kind": "Museum",
+      "address": "401 F St NW",
+      "lat": 38.8977,
+      "lng": -77.0177,
+      "walk_archway": 7,
+      "walk_cc": 13,
+      "hours": "Check the museum's site",
+      "cost": "Check the museum's site",
+      "url": "https://www.nbm.org/visit/",
+      "summary": "The Great Hall of the old Pension Building is the draw: one of the largest indoor rooms in the city, ringed by colossal columns.",
+      "sources": [
+        {
+          "label": "National Building Museum",
+          "url": "https://www.nbm.org/visit/"
+        }
+      ]
+    },
+    {
+      "id": "capital-jewish-museum",
+      "name": "Capital Jewish Museum",
+      "kind": "Museum",
+      "address": "575 3rd St NW",
+      "lat": 38.8964,
+      "lng": -77.0148,
+      "walk_archway": 12,
+      "walk_cc": 18,
+      "hours": "Check the museum's site; advance reservations recommended",
+      "cost": "Free, suggested donation; visitors 18 and older need government ID",
+      "url": "https://capitaljewishmuseum.org/visit/",
+      "summary": "Built around the restored sanctuary of DC's oldest synagogue building, with exhibitions on Jewish Washington.",
+      "current": "Special exhibition: Esther Bubley, Photographing the Homefront.",
+      "sources": [
+        {
+          "label": "Capital Jewish Museum: visit",
+          "url": "https://capitaljewishmuseum.org/visit/"
+        }
+      ]
+    },
+    {
+      "id": "sixth-and-i",
+      "name": "Sixth & I",
+      "kind": "Venue",
+      "address": "600 I St NW",
+      "lat": 38.901,
+      "lng": -77.0201,
+      "walk_archway": 4,
+      "walk_cc": 6,
+      "hours": "Event nights",
+      "cost": "Ticketed",
+      "url": "https://www.sixthandi.org/",
+      "summary": "A historic synagogue that books author talks, comedy and concerts, a block from the Archway.",
+      "sources": [
+        {
+          "label": "Sixth & I",
+          "url": "https://www.sixthandi.org/"
+        }
+      ]
+    },
+    {
+      "id": "national-archives",
+      "name": "National Archives Museum",
+      "kind": "Museum",
+      "address": "701 Constitution Ave NW",
+      "lat": 38.8928,
+      "lng": -77.023,
+      "walk_archway": 11,
+      "walk_cc": 14,
+      "hours": "10 a.m.–5:30 p.m. daily",
+      "cost": "Free",
+      "url": "https://visit.archives.gov/",
+      "summary": "The Declaration of Independence, the Constitution and the Bill of Rights, a straight walk down 7th Street.",
+      "sources": [
+        {
+          "label": "National Archives Museum: visit",
+          "url": "https://visit.archives.gov/"
+        }
+      ]
+    },
+    {
+      "id": "holiday-market",
+      "name": "DowntownDC Holiday Market",
+      "kind": "Seasonal market",
+      "address": "F St NW between 7th and 9th Streets",
+      "lat": 38.8975,
+      "lng": -77.023,
+      "walk_archway": 4,
+      "walk_cc": 8,
+      "hours": "Nov 13–Dec 23, 2026; closed Thanksgiving Day",
+      "cost": "Free entry",
+      "url": "https://www.downtowndc.org/holiday-market/",
+      "summary": "More than 115 vendors on the street outside the Portrait Gallery, including stalls from Lucky Danger and Daikaya.",
+      "sources": [
+        {
+          "label": "DowntownDC Holiday Market vendors",
+          "url": "https://www.downtowndc.org/holiday-market/vendors/"
+        },
+        {
+          "label": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/2026-downtowndc-holiday-market-returns-its-longest-season-yet-what-know"
+        }
+      ]
+    },
+    {
+      "id": "convention-center",
+      "name": "Walter E. Washington Convention Center",
+      "kind": "Convention center",
+      "address": "801 Mount Vernon Pl NW",
+      "lat": 38.90313,
+      "lng": -77.0229439,
+      "walk_archway": 6,
+      "walk_cc": 0,
+      "hours": "Event days",
+      "cost": "Varies by event",
+      "url": "https://eventsdc.com/node/2",
+      "summary": "The reason many readers of this guide are in the neighborhood. Every walk time in the guide is measured from its south side on Mount Vernon Square.",
+      "sources": [
+        {
+          "label": "Events DC: Walter E. Washington Convention Center",
+          "url": "https://eventsdc.com/node/2"
+        }
+      ]
+    }
+  ]
+}
