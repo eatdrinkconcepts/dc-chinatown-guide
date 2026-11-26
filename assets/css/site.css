@@ -207,6 +207,13 @@ figcaption { font-size: .8rem; color: var(--muted); margin-top: 6px; }
 .map-index li { break-inside: avoid; margin: 0 0 6px; display: flex; gap: 8px; align-items: baseline; }
 .map-index .pin { width: 22px; height: 22px; font-size: .7rem; box-shadow: none; }
 
+/* Reserve / order / menu */
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+.actions .btn { padding: 8px 14px; font-size: .88rem; }
+.actions-note { font-size: .78rem; color: var(--muted); margin: 0 0 6px; }
+.actions-note + figure, .actions-note + .notice, .actions-note + .blurb { margin-top: 12px; }
+.card-acts { color: #1e6b3a; font-weight: 600; }
+
 /* Events */
 .month { margin: 26px 0 10px; font-size: 1.3rem; }
 .events { display: grid; gap: 10px; }

@@ -19,6 +19,21 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 
 ---
 
+## 2026-11-26 · Claude: Reserve / Order / Menu buttons
+
+Hudson asked to make it easy for guide users to book, order online and see menus.
+
+**New fields in `guide-data.json`:** `reserve` {url, label, note, scope}, `order` [{url, label, note}], `menu` {url, label}. In the CSV they are `reserve_url`, `order_urls` and `menu_url`. All links come from each restaurant's own website (Nov 26, 2026). Third-party links (DoorDash) appear only where the restaurant itself links to them. Menus are links to the restaurants' own pages, not copies, so they stay current and avoid copying anyone's menu.
+
+- Reservations: 1 Lucky Danger (OpenTable) and 18 The Izakaya at Daikaya (OpenTable). 3 Wok and Roll has a karaoke-room booking button (`scope: karaoke`), so it's left out of the "Reservations" filter. 17 Daikaya Ramen Shop is marked walk-in only.
+- Online ordering: 14 places (1, 4, 5, 6, 7, 8, 10, 11, 14, 15, 17, 19, 20, 22). Poke Ninja's link is Luna Hall's own Toast page, which covers Poke Ninja and Dumpling District.
+- Menus: 15 places.
+- No links found for: 2 Ambrosia (site offline), 9 China Boy and 21 PHO 88 (sites would not load), 12 Kung Fu Tea, 13 TKK, 16 Luna Bar. Grok, if you find official links for these, add them in the same format.
+
+**On the site:** each place page now has a row of buttons (Reserve, Order, Menu, Call) and a line saying the links go to the restaurant's own pages and that The Lion's Path takes no bookings and earns nothing from them. Cards show "Reservations · Order online", and the Places list has "Reservations" and "Order online" filters. No change is needed to the PDF, unless Grok wants to print menu or ordering URLs.
+
+---
+
 ## 2026-11-26 · Claude: events calendar, "In the news" links, Ambrosia hours
 
 Hudson asked for an events calendar from the restaurants' websites and social media, and for news and media links on each place. Hudson chose to include dated special events and recurring nights, covering three months (through Feb 28, 2027).

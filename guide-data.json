@@ -143,7 +143,29 @@
           "title": "Opening preview of the restaurant and mahjong bar",
           "url": "https://washingtonian.com/2025/05/13/a-hip-chinese-american-restaurant-and-mahjong-bar-is-opening-penn-quarter/"
         }
-      ]
+      ],
+      "reserve": {
+        "url": "https://www.opentable.com/r/lucky-danger-chinatown-washington",
+        "label": "Reserve on OpenTable",
+        "note": "Reservations suggested. Mahjong tables and classes are booked separately."
+      },
+      "order": [
+        {
+          "url": "https://order.toasttab.com/online/lucky-danger-sit-down-709-d-st-nw",
+          "label": "Order pickup",
+          "note": null
+        },
+        {
+          "url": "https://www.doordash.com/store/lucky-danger-washington-37303907/",
+          "label": "Delivery (DoorDash)",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.luckydanger.co/washington-dc",
+        "label": "Menus",
+        "note": null
+      }
     },
     {
       "rank": 2,
@@ -209,7 +231,10 @@
           "title": "Ambrosia's signage goes up on H Street",
           "url": "https://www.popville.com/2026/09/washington-dc-ambrosia-signage-vietnamese-restaurant-tony-cheng-chinatown/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 3,
@@ -288,7 +313,19 @@
           "title": "Included in its guide to DC karaoke bars",
           "url": "https://dc.citycast.fm/best/best-karaoke-bars-dc"
         }
-      ]
+      ],
+      "reserve": {
+        "url": "https://www.sevenrooms.com/explore/wokandrollkaraokechinatown/reservations/create/search/",
+        "label": "Book a karaoke room",
+        "note": "Karaoke rooms only; the restaurant takes walk-ins.",
+        "scope": "karaoke"
+      },
+      "order": [],
+      "menu": {
+        "url": "https://www.wokandrolldc.com/chinatown-menu",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 4,
@@ -346,7 +383,20 @@
           "title": "Review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/joy-luck-house"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://www.joyluckhouse.com/x2vkepkq/joy-luck-house-washington-20001/order-online",
+          "label": "Order pickup",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.joyluckhouse.com/x2vkepkq/joy-luck-house-washington-20001/order-online#menu-section",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 5,
@@ -398,7 +448,20 @@
           "title": "Opening report: Reren soft-opens in Chinatown",
           "url": "https://www.popville.com/2016/05/reren-lamen-bar-soft-opens-in-former-mehak-space-in-chinatown/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://rerenlamen.com/order-online/",
+          "label": "Order online",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://rerenlamen.com/menu/",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 6,
@@ -457,7 +520,20 @@
           "title": "On how the restaurant adapted to changing tastes",
           "url": "https://www.washingtonpost.com/news/going-out-guide/wp/2015/02/19/how-can-a-flagging-chinese-restaurant-keep-up-with-changing-tastes-become-more-chinese/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://www.chinatowngardenwashington.com/x4x6pkq5/chinatown-garden-washington-20001/order-online",
+          "label": "Order pickup or delivery",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.chinatowngardenwashington.com/x4x6pkq5/chinatown-garden-washington-20001/order-online#menu-section",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 7,
@@ -515,7 +591,20 @@
           "title": "Earlier write-up of Chinatown Express",
           "url": "https://www.washingtonian.com/2004/06/01/june-2004-chinatown-express"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://chinatownexpressdc.com/menu?dialogState=orderDetails",
+          "label": "Order online",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://chinatownexpressdc.com/menu",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 8,
@@ -571,7 +660,20 @@
           "title": "Review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/new-big-wong"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://www.newbigwongtogo.com/uv0ao3m5/bigwong-washington-20001/order-online",
+          "label": "Order pickup",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.newbigwongtogo.com/uv0ao3m5/bigwong-washington-20001/order-online#menu-section",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 9,
@@ -633,7 +735,10 @@
           "title": "Included in DCist's roundup of the city's best noodles",
           "url": "https://dcist.com/story/16/01/22/best-noodles/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 10,
@@ -693,7 +798,20 @@
           "title": "On the space's previous concept, Bonkers' Chinese Burger, at 736 6th St NW",
           "url": "https://www.popville.com/2023/05/bonkers-chinese-burger-chinatown/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://www.eatcinnara.com/",
+          "label": "Order online",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.eatcinnara.com/",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 11,
@@ -759,7 +877,20 @@
           "title": "Luna Hall soft-opens at 625 H St NW",
           "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://dumplingdistrictusa.com/order/dumpling-district-dc",
+          "label": "Order online",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://dumplingdistrictusa.com/menu/dumpling-district-dc",
+        "label": "Menu (DC)",
+        "note": null
+      }
     },
     {
       "rank": 12,
@@ -815,7 +946,10 @@
           "title": "Luna Hall soft-opens with Kung Fu Tea",
           "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 13,
@@ -875,7 +1009,10 @@
           "title": "Review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/tkk-fried-chicken-dc"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 14,
@@ -931,7 +1068,20 @@
           "title": "Luna Hall soft-opens at 625 H St NW",
           "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw",
+          "label": "Order via Luna Hall",
+          "note": "Luna Hall's online ordering covers Poke Ninja and Dumpling District."
+        }
+      ],
+      "menu": {
+        "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 15,
@@ -984,7 +1134,20 @@
       "apple_maps_url": "https://maps.apple.com/place?place-id=IE21A97CB3DFE45FA",
       "map_listing_note": null,
       "listings_checked": "2026-11-26",
-      "media": []
+      "media": [],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://order.online/business/TousLesJours-58690?delivery=true&store_id=31889381",
+          "label": "Order online",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://tljus.com/menus/all",
+        "label": "Menu (all stores)",
+        "note": null
+      }
     },
     {
       "rank": 16,
@@ -1040,7 +1203,10 @@
           "title": "Luna Hall soft-opens at 625 H St NW",
           "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 17,
@@ -1111,7 +1277,24 @@
           "title": "Listed in the 100 Very Best Restaurants of 2017",
           "url": "https://www.washingtonian.com/2017/02/15/74-100-best-restaurants-2017-daikaya"
         }
-      ]
+      ],
+      "reserve": {
+        "url": null,
+        "label": "Walk-in only",
+        "note": null
+      },
+      "order": [
+        {
+          "url": "https://www.toasttab.com/daikaya",
+          "label": "Order pickup",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.daikaya.com/menus/",
+        "label": "Menus",
+        "note": null
+      }
     },
     {
       "rank": 18,
@@ -1163,7 +1346,18 @@
           "title": "Review of the upstairs izakaya",
           "url": "https://timeout.com/washington-dc/bars/daikaya-upstairs-izakaya"
         }
-      ]
+      ],
+      "reserve": {
+        "url": "https://www.opentable.com/r/daikaya-2f-the-izakaya-washington",
+        "label": "Reserve on OpenTable",
+        "note": null
+      },
+      "order": [],
+      "menu": {
+        "url": "https://www.daikaya.com/menus/",
+        "label": "Menus",
+        "note": null
+      }
     },
     {
       "rank": 19,
@@ -1227,7 +1421,20 @@
           "title": "Opening report",
           "url": "https://www.popville.com/2016/06/boom-bantam-kings-opens-at-5pm-with-ramen-fried-chicken-and-more/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://order.online/business/bantam-king-48012",
+          "label": "Order takeout or delivery",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://www.bantamking.com/menus/",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 20,
@@ -1285,7 +1492,25 @@
           "title": "Opening report",
           "url": "https://www.popville.com/2020/11/kura-revolving-sushi-bar-open-dc-chinatown/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://order.kurasushi.com/?location=11eb2c6db9487a518648ac1f6bbbd01e",
+          "label": "Order pickup",
+          "note": null
+        },
+        {
+          "url": "https://www.doordash.com/store/kura-sushi-washington-27567447/",
+          "label": "Delivery (DoorDash)",
+          "note": null
+        }
+      ],
+      "menu": {
+        "url": "https://kurasushi.com/menu",
+        "label": "Menu",
+        "note": null
+      }
     },
     {
       "rank": 21,
@@ -1341,7 +1566,10 @@
           "title": "Venue page",
           "url": "https://dc.eater.com/venue/47463/pho-88-noodles-and-grill"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [],
+      "menu": null
     },
     {
       "rank": 22,
@@ -1393,8 +1621,18 @@
           "title": "Opening report: Sharetea opens at 519 H St NW",
           "url": "https://www.popville.com/2018/07/authentic-taiwanese-tea-opens-today-in-chinatown/"
         }
-      ]
+      ],
+      "reserve": null,
+      "order": [
+        {
+          "url": "https://order.mealkeyway.com/merchant/734d79747979646e6644764a41426d6e47696e436e673d3d/main",
+          "label": "Order ahead",
+          "note": null
+        }
+      ],
+      "menu": null
     }
   ],
-  "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared)."
+  "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared).",
+  "actions_note": "Reserve, order and menu links were taken from each restaurant's own website on Nov 26, 2026 (third-party links only where the restaurant itself links to them). None found for 2 Ambrosia (site offline), 9 China Boy and 21 PHO 88 (sites would not load), 12 Kung Fu Tea, 13 TKK and 16 Luna Bar."
 }

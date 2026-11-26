@@ -61,6 +61,10 @@
     var meta = '<span class="walk">' + esc(walkText(p)) + "</span>";
     meta += "<span>" + esc(p.type_base || p.type) + "</span>";
     if (p.price) meta += "<span>" + esc(p.price) + "</span>";
+    var acts = [];
+    if (p.reserve && p.reserve.url && !p.reserve.scope) acts.push("Reservations");
+    if ((p.order || []).length) acts.push("Order online");
+    if (acts.length) meta += '<span class="card-acts">' + acts.join(" · ") + "</span>";
     if (state.notes[p.rank]) meta += '<span class="card-flag">⚠ Check before you go</span>';
     return '<a class="card" href="#place-' + p.rank + '">' + pin(p) +
       '<div class="card-title">' + esc(p.name) + tags + "</div>" +
@@ -85,13 +89,17 @@
     setNav("places");
     var active = "All";
     Object.keys(COLORS).forEach(function (c) { if (slug(c) === params.c) active = c; });
+    var feature = params.c === "reservations" ? "reserve" : params.c === "order-online" ? "order" : null;
+    function hasFeature(p) { return feature === "reserve" ? !!(p.reserve && p.reserve.url && !p.reserve.scope) : feature === "order" ? (p.order || []).length > 0 : true; }
     state.lastPlacesHash = location.hash || "#places";
 
     var counts = {};
     state.places.forEach(function (p) { counts[p.cuisine] = (counts[p.cuisine] || 0) + 1; });
     var order = (state.data.cuisine_sections || []).map(function (s) { return s.cuisine; });
 
-    var chips = '<button class="chip" data-c="All" aria-pressed="' + (active === "All") + '">All <span class="n">' + state.places.length + "</span></button>";
+    var chips = '<button class="chip" data-c="All" aria-pressed="' + (active === "All" && !feature) + '">All <span class="n">' + state.places.length + "</span></button>";
+    chips += '<button class="chip" data-c="reservations" aria-pressed="' + (feature === "reserve") + '">Reservations <span class="n">' + state.places.filter(function (p) { return p.reserve && p.reserve.url && !p.reserve.scope; }).length + "</span></button>";
+    chips += '<button class="chip" data-c="order-online" aria-pressed="' + (feature === "order") + '">Order online <span class="n">' + state.places.filter(function (p) { return (p.order || []).length; }).length + "</span></button>";
     order.forEach(function (c) {
       chips += '<button class="chip" data-c="' + esc(c) + '" aria-pressed="' + (active === c) + '" style="--c:' + color(c) + '"><span class="dot"></span>' + esc(c) + ' <span class="n">' + (counts[c] || 0) + "</span></button>";
     });
@@ -100,7 +108,7 @@
       '<p style="color:var(--muted);margin:0 0 6px;font-size:.92rem">In guide order. Walk times are from the Convention Center (801 Mount Vernon Pl NW).</p>' +
       '<div class="filters" role="toolbar" aria-label="Filter by cuisine">' + chips + "</div>";
 
-    var inScope = state.places.filter(function (p) { return active === "All" || p.cuisine === active; });
+    var inScope = state.places.filter(function (p) { return (active === "All" || p.cuisine === active) && hasFeature(p); });
     var featured = inScope.filter(function (p) { return p.featured; });
     if (featured.length) {
       html += '<div class="group-head"><h2>Featured</h2></div><div class="cards">' +
@@ -109,7 +117,7 @@
     (state.data.cuisine_sections || []).forEach(function (sec) {
       if (active !== "All" && sec.cuisine !== active) return;
       var rest = inScope.filter(function (p) { return p.cuisine === sec.cuisine && !p.featured; });
-      var featuredHere = state.places.filter(function (p) { return p.cuisine === sec.cuisine && p.featured; });
+      var featuredHere = state.places.filter(function (p) { return p.cuisine === sec.cuisine && p.featured && hasFeature(p); });
       if (!rest.length && !featuredHere.length) return;
       html += '<div class="group-head"><h2 style="--c:' + color(sec.cuisine) + '"><span class="dot"></span>' + esc(sec.cuisine) + "</h2>" +
         '<p class="group-intro">' + esc(sec.intro) + "</p>";
@@ -127,14 +135,30 @@
     main.querySelectorAll(".chip").forEach(function (b) {
       b.addEventListener("click", function () {
         var c = b.dataset.c;
-        var h = c === "All" ? "#places" : "#places-" + slug(c);
+        var h = c === "All" ? "#places" : "#places-" + (c === "reservations" || c === "order-online" ? c : slug(c));
         if (location.hash !== h) { state.keepScroll = true; location.hash = h; }
       });
     });
     setHeaderOffset();
     var on = main.querySelector('.chip[aria-pressed="true"]');
     if (on && on.parentNode.scrollTo) on.parentNode.scrollTo({ left: on.offsetLeft - 16 });
-    document.title = (active === "All" ? "All places" : active) + " · DC Chinatown Restaurant Guide";
+    document.title = (feature === "reserve" ? "Reservations" : feature === "order" ? "Order online" : active === "All" ? "All places" : active) + " · DC Chinatown Restaurant Guide";
+  }
+
+  function actionBar(p) {
+    var b = [], notes = [];
+    function btn(url, label, cls) { return '<a class="btn ' + cls + '" href="' + esc(url) + '" rel="noopener" target="_blank">' + esc(label) + "</a>"; }
+    if (p.reserve && p.reserve.url) b.push(btn(p.reserve.url, p.reserve.label || "Reserve", "btn-primary"));
+    (p.order || []).forEach(function (o, i) { b.push(btn(o.url, o.label || "Order online", (!b.length && i === 0) ? "btn-primary" : "btn-ghost")); if (o.note) notes.push(o.note); });
+    if (p.menu && p.menu.url) b.push(btn(p.menu.url, p.menu.label || "Menu", "btn-ghost"));
+    if (p.phone) b.push('<a class="btn btn-ghost" href="tel:' + esc(p.phone.replace(/[^\d+]/g, "")) + '">Call ' + esc(p.phone.replace(/\s*\([^()]*line\)$/, "")) + "</a>");
+    if (p.reserve && p.reserve.note) notes.unshift(p.reserve.note);
+    if (p.reserve && !p.reserve.url && p.reserve.label) notes.unshift(p.reserve.label + ".");
+    if (!b.length) return "";
+    var linked = (p.reserve && p.reserve.url) || (p.order || []).length || (p.menu && p.menu.url);
+    return '<div class="actions">' + b.join("") + "</div>" +
+      (notes.length ? '<p class="actions-note">' + notes.map(esc).join(" ") + "</p>" : "") +
+      (!linked ? "" : '<p class="actions-note">These links go to the restaurant\'s own booking and ordering pages. The Lion\'s Path takes no bookings and earns nothing from them.</p>');
   }
 
   function viewPlace(rank) {
@@ -188,7 +212,7 @@
       '<a class="back" href="' + esc(state.lastPlacesHash) + '">← All places</a>' +
       '<div class="detail-head">' + pin(p, "lg") + "<h1>" + esc(p.name) + "</h1></div>" +
       '<div class="detail-tags">' + tags + "</div>" +
-      photo + note +
+      actionBar(p) + photo + note +
       '<p class="blurb">' + esc(p.blurb) + "</p>" +
       '<table class="facts"><tbody>' + rows.join("") + "</tbody></table>" +
       placeEvents(p) + placeMedia(p) +
