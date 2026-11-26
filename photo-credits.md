@@ -40,3 +40,39 @@ Street lines and landmarks on the map are **© OpenStreetMap contributors** ([op
 ## Places with no reusable photo
 
 The remaining 19 places in the guide have no cleared photograph. Do not invent, scrape, or substitute photos for them. The print text-and-map edition layouts those entries as typography-only, which the web guide can also do.
+
+## Added November 26, 2026 (approved by Hudson as a separate rights clearance)
+
+Hudson approved adding these openly licensed Wikimedia Commons photographs. Show each credit line next to the image and on the credits page. Files marked CC BY-SA must stay under CC BY-SA 4.0 if adapted. The website crops them only for display with CSS; the files themselves are unedited.
+
+### 4. 608–610 H St NW storefronts: entries #8 New Big Wong and #21 PHO 88
+
+- File: `photos/608-610-h-st-storefronts.jpg`
+- Caption: 608–610 H St NW: New Big Wong and PHO 88 storefronts (Nov 2023)
+- Credit line: Photo: APK, CC BY 4.0, Wikimedia Commons
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Wikimedia Commons: https://commons.wikimedia.org/wiki/File:608-610_H_Street_NW.jpg
+
+### 5. Joy Luck House sign: entry #4
+
+- File: `photos/joy-luck-house-sign.jpg`
+- Caption: Joy Luck House sign, 748 6th St NW (Jul 2012)
+- Credit line: Photo: Andy Mabbett, CC BY-SA 4.0, Wikimedia Commons
+- License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Joy_Luck_House,_Washington_DC.jpg
+
+### 6. Daikaya building at 6th and G: entry #18 The Izakaya at Daikaya
+
+- File: `photos/daikaya-6th-and-g.jpg`
+- Caption: Daikaya's building at 6th and G Streets NW; the Izakaya is on the second floor (Jan 2017)
+- Credit line: Photo: AgnosticPreachersKid, CC BY-SA 4.0, Wikimedia Commons
+- License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- Wikimedia Commons: https://commons.wikimedia.org/wiki/File:6th_and_G_Streets_NW.jpg
+
+### 7. Wok and Roll interior: entry #3 (second photo)
+
+- File: `photos/wok-and-roll-interior.jpg`
+- Caption: Wok and Roll dining room, 604 H St NW (Oct 2016)
+- Credit line: Photo: Ser Amantio di Nicolao, CC BY 3.0, Wikimedia Commons
+- License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Interior_of_the_Wok_and_Roll_Restaurant_in_Washington,_D.C..jpg

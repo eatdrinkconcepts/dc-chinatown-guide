@@ -165,7 +165,8 @@
         "url": "https://www.luckydanger.co/washington-dc",
         "label": "Menus",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 2,
@@ -234,7 +235,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 3,
@@ -325,7 +327,17 @@
         "url": "https://www.wokandrolldc.com/chinatown-menu",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": [
+        {
+          "file": "photos/wok-and-roll-interior.jpg",
+          "slot": "interior",
+          "caption": "Wok and Roll dining room, 604 H St NW (Oct 2016)",
+          "credit": "Ser Amantio di Nicolao, CC BY 3.0, Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Wok_and_Roll_Restaurant_in_Washington,_D.C..jpg"
+        }
+      ]
     },
     {
       "rank": 4,
@@ -363,7 +375,14 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/joy-luck-house"
         }
       ],
-      "photo": null,
+      "photo": {
+        "file": "photos/joy-luck-house-sign.jpg",
+        "slot": "storefront",
+        "caption": "Joy Luck House sign, 748 6th St NW (Jul 2012)",
+        "credit": "Andy Mabbett, CC BY-SA 4.0, Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Joy_Luck_House,_Washington_DC.jpg"
+      },
       "google_place_id": "ChIJtZJQ2Y23t4kRs7N-Zpd5j1Q",
       "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Joy%20Luck%20House%2C%20748%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJtZJQ2Y23t4kRs7N-Zpd5j1Q",
       "apple_place_id": "IA7DB1070BED2B57D",
@@ -396,7 +415,8 @@
         "url": "https://www.joyluckhouse.com/x2vkepkq/joy-luck-house-washington-20001/order-online#menu-section",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 5,
@@ -461,7 +481,8 @@
         "url": "https://rerenlamen.com/menu/",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 6,
@@ -533,7 +554,8 @@
         "url": "https://www.chinatowngardenwashington.com/x4x6pkq5/chinatown-garden-washington-20001/order-online#menu-section",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 7,
@@ -604,7 +626,8 @@
         "url": "https://chinatownexpressdc.com/menu",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 8,
@@ -646,7 +669,14 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/new-big-wong"
         }
       ],
-      "photo": null,
+      "photo": {
+        "file": "photos/608-610-h-st-storefronts.jpg",
+        "slot": "storefront",
+        "caption": "608–610 H St NW: New Big Wong and PHO 88 storefronts (Nov 2023)",
+        "credit": "APK, CC BY 4.0, Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:608-610_H_Street_NW.jpg"
+      },
       "google_place_id": "ChIJ7S8g4Y23t4kRk1M7B60v_Lw",
       "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NewBigWong%2C%20610%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJ7S8g4Y23t4kRk1M7B60v_Lw",
       "apple_place_id": "ID61D49C7BE840F43",
@@ -673,7 +703,8 @@
         "url": "https://www.newbigwongtogo.com/uv0ao3m5/bigwong-washington-20001/order-online#menu-section",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 9,
@@ -738,7 +769,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 10,
@@ -811,7 +843,8 @@
         "url": "https://www.eatcinnara.com/",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 11,
@@ -890,7 +923,8 @@
         "url": "https://dumplingdistrictusa.com/menu/dumpling-district-dc",
         "label": "Menu (DC)",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 12,
@@ -949,7 +983,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 13,
@@ -1012,7 +1047,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 14,
@@ -1081,7 +1117,8 @@
         "url": "https://order.toasttab.com/online/luna-hall-dc-625-h-st-nw",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 15,
@@ -1147,7 +1184,8 @@
         "url": "https://tljus.com/menus/all",
         "label": "Menu (all stores)",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 16,
@@ -1206,7 +1244,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 17,
@@ -1294,7 +1333,8 @@
         "url": "https://www.daikaya.com/menus/",
         "label": "Menus",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 18,
@@ -1332,7 +1372,14 @@
           "url": "https://www.daikaya.com/location/daikaya/"
         }
       ],
-      "photo": null,
+      "photo": {
+        "file": "photos/daikaya-6th-and-g.jpg",
+        "slot": "storefront",
+        "caption": "Daikaya's building at 6th and G Streets NW; the Izakaya is on the second floor (Jan 2017)",
+        "credit": "AgnosticPreachersKid, CC BY-SA 4.0, Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:6th_and_G_Streets_NW.jpg"
+      },
       "google_place_id": "ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
       "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DAIKAYA%20Izakaya%20and%20Ramen%20Shop%2C%20705%206th%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJF2yEqzq3t4kRbnlXNGcKUmQ",
       "apple_place_id": "I8AFE09099E0C74B4",
@@ -1357,7 +1404,8 @@
         "url": "https://www.daikaya.com/menus/",
         "label": "Menus",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 19,
@@ -1434,7 +1482,8 @@
         "url": "https://www.bantamking.com/menus/",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 20,
@@ -1510,7 +1559,8 @@
         "url": "https://kurasushi.com/menu",
         "label": "Menu",
         "note": null
-      }
+      },
+      "photos_more": []
     },
     {
       "rank": 21,
@@ -1552,7 +1602,14 @@
           "url": "https://dc.eater.com/venue/47463/pho-88-noodles-and-grill"
         }
       ],
-      "photo": null,
+      "photo": {
+        "file": "photos/608-610-h-st-storefronts.jpg",
+        "slot": "storefront",
+        "caption": "608–610 H St NW: New Big Wong and PHO 88 storefronts (Nov 2023)",
+        "credit": "APK, CC BY 4.0, Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:608-610_H_Street_NW.jpg"
+      },
       "google_place_id": "ChIJAz6b4I23t4kRZtGsSlZMVsU",
       "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%2088%20Noodles%20%26%20Grill%2C%20608%20H%20St%20NW%2C%20Washington%2C%20DC%2020001&query_place_id=ChIJAz6b4I23t4kRZtGsSlZMVsU",
       "apple_place_id": "I6D4CB096337656C3",
@@ -1569,7 +1626,8 @@
       ],
       "reserve": null,
       "order": [],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     },
     {
       "rank": 22,
@@ -1630,7 +1688,8 @@
           "note": null
         }
       ],
-      "menu": null
+      "menu": null,
+      "photos_more": []
     }
   ],
   "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared).",

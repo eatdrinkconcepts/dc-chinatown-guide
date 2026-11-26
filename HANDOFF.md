@@ -19,6 +19,19 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 
 ---
 
+## 2026-11-26 · Claude: more photos (Hudson approved a rights clearance beyond BRIEF.md rule 4)
+
+Hudson asked for photos on as many cards as possible, and approved adding openly licensed Wikimedia Commons photos as the "separate rights clearance" the brief requires. There are still no scraped, stock, AI-generated or restaurant-owned photos. Every image shows its credit next to it, and the About page now builds the photo credits list from the data. `photo-credits.md` sections 4–7 have the full details.
+
+- 8 New Big Wong and 21 PHO 88 share `photos/608-610-h-st-storefronts.jpg` (APK, CC BY 4.0, Nov 2023).
+- 4 Joy Luck House: `photos/joy-luck-house-sign.jpg` (Andy Mabbett, CC BY-SA 4.0, Jul 2012).
+- 18 The Izakaya at Daikaya: `photos/daikaya-6th-and-g.jpg` (AgnosticPreachersKid, CC BY-SA 4.0, Jan 2017).
+- 3 Wok and Roll gets a second, interior photo: `photos/wok-and-roll-interior.jpg` (Ser Amantio di Nicolao, CC BY 3.0, Oct 2016), in the new `photos_more` field.
+
+**Files still needed:** neither Claude's environment can reach upload.wikimedia.org, so Hudson (or Grok) must save the four files into `photos/` under those exact names. Until then the site hides those images. Grok, if you add any of these photos to the PDF, use the same credit lines.
+
+---
+
 ## 2026-11-26 · Claude: Reserve / Order / Menu buttons
 
 Hudson asked to make it easy for guide users to book, order online and see menus.

@@ -67,7 +67,7 @@
     if (acts.length) meta += '<span class="card-acts">' + acts.join(" · ") + "</span>";
     if (state.notes[p.rank]) meta += '<span class="card-flag">⚠ Check before you go</span>';
     var ph = p.photo && p.photo.file
-      ? '<div class="card-photo"><img src="' + esc(p.photo.file) + '" alt="" loading="lazy"><span class="card-credit">' + esc(p.photo.credit) + "</span></div>"
+      ? '<div class="card-photo"><img src="' + esc(p.photo.file) + '" alt="" loading="lazy" onerror="var x=this.closest(\'.card-photo,figure\');if(x){var c=x.closest(\'.card\');x.remove();if(c)c.classList.remove(\'has-photo\')}"><span class="card-credit">' + esc(p.photo.credit) + "</span></div>"
       : "";
     return '<a class="card' + (ph ? " has-photo" : "") + '" href="#place-' + p.rank + '">' + ph + pin(p) +
       '<div class="card-title">' + esc(p.name) + tags + "</div>" +
@@ -176,11 +176,10 @@
     tags += '<span class="tag hall" style="color:' + color(p.cuisine) + ";border-color:" + color(p.cuisine) + '">' + esc(p.cuisine) + "</span>";
     if (p.hall) tags += '<span class="tag hall">' + esc(p.hall) + "</span>";
 
-    var photo = "";
-    if (p.photo && p.photo.file) {
-      photo = '<figure><img src="' + esc(p.photo.file) + '" alt="' + esc(p.name + " storefront: " + p.photo.caption) + '" loading="lazy">' +
-        "<figcaption>" + esc(p.photo.caption) + '. <a href="' + esc(p.photo.url) + '" rel="noopener">Photo: ' + esc(p.photo.credit) + "</a></figcaption></figure>";
-    }
+    var photo = [p.photo].concat(p.photos_more || []).filter(function (x) { return x && x.file; }).map(function (x) {
+      return '<figure><img src="' + esc(x.file) + '" alt="' + esc(p.name + ": " + x.caption) + '" loading="lazy" onerror="var x=this.closest(\'.card-photo,figure\');if(x){var c=x.closest(\'.card\');x.remove();if(c)c.classList.remove(\'has-photo\')}">' +
+        "<figcaption>" + esc(x.caption) + '. <a href="' + esc(x.url) + '" rel="noopener">Photo: ' + esc(x.credit) + "</a></figcaption></figure>";
+    }).join("");
     var note = state.notes[p.rank]
       ? '<div class="notice" role="note"><strong>Check before you go</strong>' + esc(state.notes[p.rank]) + "</div>" : "";
 
@@ -395,6 +394,19 @@
     setNav("about");
     main.innerHTML = "";
     main.appendChild(tpl("tpl-about"));
+    var seen = {}, items = [];
+    state.places.forEach(function (p) {
+      [p.photo].concat(p.photos_more || []).forEach(function (x) {
+        if (!x || !x.file) return;
+        if (seen[x.file]) { seen[x.file].ranks.push(p); return; }
+        seen[x.file] = { x: x, ranks: [p] }; items.push(seen[x.file]);
+      });
+    });
+    var ul = main.querySelector("#photo-credits");
+    if (ul) ul.innerHTML = items.map(function (it) {
+      return "<li><strong>" + it.ranks.map(function (p) { return '<a href="#place-' + p.rank + '">' + esc(p.name) + "</a>"; }).join(", ") + "</strong>: " + esc(it.x.caption) +
+        '. Photo: <a href="' + esc(it.x.url) + '" rel="noopener">' + esc(it.x.credit) + "</a>." + (it.ranks[0].rank === 6 ? " Also used on the home page." : "") + "</li>";
+    }).join("");
     document.title = "About The Lion's Path · DC Chinatown Restaurant Guide";
     if (anchor) {
       var el = document.getElementById(anchor);
