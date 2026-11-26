@@ -18,7 +18,7 @@
   };
   var CC_ADDRESS = "801 Mount Vernon Pl NW, Washington, DC 20001";
 
-  var state = { data: null, notes: {}, places: [], byRank: {}, svgText: null, lastPlacesHash: "#/places" };
+  var state = { data: null, notes: {}, places: [], byRank: {}, svgText: null, lastPlacesHash: "#places" };
   var main = document.getElementById("main");
 
   // ---------- helpers ----------
@@ -62,7 +62,7 @@
     meta += "<span>" + esc(p.type_base || p.type) + "</span>";
     if (p.price) meta += "<span>" + esc(p.price) + "</span>";
     if (state.notes[p.rank]) meta += '<span class="card-flag">⚠ Check before you go</span>';
-    return '<a class="card" href="#/place/' + p.rank + '">' + pin(p) +
+    return '<a class="card" href="#place-' + p.rank + '">' + pin(p) +
       '<div class="card-title">' + esc(p.name) + tags + "</div>" +
       '<div class="card-sub">' + esc(p.cuisine_detail) + "</div>" +
       '<div class="card-meta">' + meta + "</div></a>";
@@ -81,9 +81,9 @@
 
   function viewPlaces(params) {
     setNav("places");
-    var active = params.get("c") || "All";
-    if (active !== "All" && !COLORS[active]) active = "All";
-    state.lastPlacesHash = location.hash || "#/places";
+    var active = "All";
+    Object.keys(COLORS).forEach(function (c) { if (slug(c) === params.c) active = c; });
+    state.lastPlacesHash = location.hash || "#places";
 
     var counts = {};
     state.places.forEach(function (p) { counts[p.cuisine] = (counts[p.cuisine] || 0) + 1; });
@@ -113,7 +113,7 @@
         '<p class="group-intro">' + esc(sec.intro) + "</p>";
       if (featuredHere.length) {
         html += '<p class="group-note">Featured above: ' + featuredHere.map(function (p) {
-          return '<a href="#/place/' + p.rank + '">' + p.rank + ". " + esc(p.name) + "</a>";
+          return '<a href="#place-' + p.rank + '">' + p.rank + ". " + esc(p.name) + "</a>";
         }).join(", ") + ".</p>";
       }
       html += "</div>";
@@ -125,11 +125,13 @@
     main.querySelectorAll(".chip").forEach(function (b) {
       b.addEventListener("click", function () {
         var c = b.dataset.c;
-        var h = c === "All" ? "#/places" : "#/places?c=" + encodeURIComponent(c);
+        var h = c === "All" ? "#places" : "#places-" + slug(c);
         if (location.hash !== h) { state.keepScroll = true; location.hash = h; }
       });
     });
     setHeaderOffset();
+    var on = main.querySelector('.chip[aria-pressed="true"]');
+    if (on && on.parentNode.scrollTo) on.parentNode.scrollTo({ left: on.offsetLeft - 16 });
     document.title = (active === "All" ? "All places" : active) + " · DC Chinatown Restaurant Guide";
   }
 
@@ -182,10 +184,10 @@
       '<p class="blurb">' + esc(p.blurb) + "</p>" +
       '<table class="facts"><tbody>' + rows.join("") + "</tbody></table>" +
       '<section style="margin-top:16px">' + sources + "</section>" +
-      '<p style="font-size:.85rem"><a href="#/map?pin=' + p.rank + '">Show on map</a></p>' +
+      '<p style="font-size:.85rem"><a href="#map-' + p.rank + '">Show on map</a></p>' +
       '<nav class="pager" aria-label="Previous and next place">' +
-        (prev ? '<a href="#/place/' + prev.rank + '">← ' + prev.rank + ". " + esc(prev.name) + "</a>" : "") +
-        (next ? '<a class="next" href="#/place/' + next.rank + '">' + next.rank + ". " + esc(next.name) + " →</a>" : "") +
+        (prev ? '<a href="#place-' + prev.rank + '">← ' + prev.rank + ". " + esc(prev.name) + "</a>" : "") +
+        (next ? '<a class="next" href="#place-' + next.rank + '">' + next.rank + ". " + esc(next.name) + " →</a>" : "") +
       "</nav>";
     document.title = p.name + " · DC Chinatown Restaurant Guide";
   }
@@ -202,7 +204,7 @@
     main.querySelector("#map-legend").innerHTML = legend;
 
     main.querySelector("#map-index").innerHTML = state.places.map(function (p) {
-      return '<li><span class="pin" style="--c:' + color(p.cuisine) + '">' + p.rank + '</span><a href="#/place/' + p.rank + '">' + esc(p.name) + "</a></li>";
+      return '<li><span class="pin" style="--c:' + color(p.cuisine) + '">' + p.rank + '</span><a href="#place-' + p.rank + '">' + esc(p.name) + "</a></li>";
     }).join("");
 
     var wrap = main.querySelector("#map-wrap");
@@ -212,7 +214,7 @@
       var svg = wrap.querySelector("svg");
       svg.removeAttribute("width"); svg.removeAttribute("height");
       enhanceMap(svg);
-      var sel = params.get("pin");
+      var sel = params.pin;
       if (sel) selectPin(sel, true);
     };
     if (state.svgText) render();
@@ -231,7 +233,7 @@
       var key = label.textContent.trim().replace("-", "–");
       var a = document.createElementNS(SVGNS, "a");
       a.setAttribute("class", "mpin");
-      a.setAttribute("href", "#/map?pin=" + encodeURIComponent(key));
+      a.setAttribute("href", "#map-" + key.replace("–", "-"));
       a.setAttribute("data-key", key);
       var names = pinPlaces(key).map(function (p) { return p.rank + ". " + p.name; }).join(", ");
       a.setAttribute("aria-label", names || key);
@@ -270,9 +272,9 @@
     panel.querySelector("button").addEventListener("click", function () {
       panel.hidden = true;
       wrap.querySelectorAll("a.mpin.active").forEach(function (a) { a.classList.remove("active"); });
-      history.replaceState(null, "", "#/map");
+      history.replaceState(null, "", "#map");
     });
-    if (!fromUrl) history.replaceState(null, "", "#/map?pin=" + encodeURIComponent(key));
+    if (!fromUrl) history.replaceState(null, "", "#map-" + key.replace("–", "-"));
     if (fromUrl && target && target.scrollIntoView) {
       setTimeout(function () { target.scrollIntoView({ block: "center" }); }, 50);
     }
@@ -292,27 +294,25 @@
 
   function viewNotFound() {
     setNav("");
-    main.innerHTML = '<section><h1>Page not found</h1><p><a href="#/">Back to the guide</a></p></section>';
+    main.innerHTML = '<section><h1>Page not found</h1><p><a href="#home">Back to the guide</a></p></section>';
   }
 
   // ---------- router ----------
+  // Routes are plain #names so links work on GitHub Pages and in the Claude preview:
+  // (none) home · #map · #map-5 · #map-11-16 · #places · #places-japanese · #place-5 · #about · #credits
+  function slug(s) { return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
   function route() {
-    var h = location.hash.replace(/^#/, "") || "/";
-    var anchor = null;
-    var hashIdx = h.indexOf("#");
-    if (hashIdx > -1) { anchor = h.slice(hashIdx + 1); h = h.slice(0, hashIdx); }
-    var q = h.indexOf("?");
-    var path = q > -1 ? h.slice(0, q) : h;
-    var params = new URLSearchParams(q > -1 ? h.slice(q + 1) : "");
+    var h = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
     var keep = state.keepScroll; state.keepScroll = false;
-    var scrolled = false;
-
-    var m;
-    if (path === "/" || path === "") viewHome();
-    else if (path === "/map") viewMap(params);
-    else if (path === "/places") viewPlaces(params);
-    else if ((m = path.match(/^\/place\/(\d+)$/))) viewPlace(m[1]);
-    else if (path === "/about") scrolled = viewAbout(anchor);
+    var scrolled = false, m;
+    if (h === "" || h === "home") viewHome();
+    else if (h === "map") viewMap({});
+    else if ((m = h.match(/^map-(\d+(?:-\d+)?)$/))) viewMap({ pin: m[1].replace("-", "–") });
+    else if (h === "places") viewPlaces({});
+    else if ((m = h.match(/^places-([a-z0-9-]+)$/))) viewPlaces({ c: m[1] });
+    else if ((m = h.match(/^place-(\d+)$/))) viewPlace(m[1]);
+    else if (h === "about") viewAbout();
+    else if (h === "credits") scrolled = viewAbout("credits");
     else viewNotFound();
 
     fillAsOf(main);

@@ -38,6 +38,10 @@ Then open http://localhost:8000.
 
 On GitHub, go to the repository's **Settings → Pages**, set **Source** to "Deploy from a branch", choose `main` and `/ (root)`, and save. The site appears at `https://<username>.github.io/<repo-name>/` within a minute or two.
 
+## Page addresses
+
+Each view has a simple link you can share: `#map`, `#map-5`, `#places`, `#places-japanese`, `#place-5`, `#about`, `#credits`.
+
 ## Before launch
 
 1. Re-verify every place (hours, phones, open/closed), especially the items in `BRIEF.md` and `site-notes.json`.
