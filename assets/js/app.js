@@ -18,7 +18,7 @@
   };
   var CC_ADDRESS = "801 Mount Vernon Pl NW, Washington, DC 20001";
 
-  var state = { data: null, notes: {}, places: [], byRank: {}, svgText: null, lastPlacesHash: "#places" };
+  var state = { data: null, notes: {}, events: null, places: [], byRank: {}, svgText: null, lastPlacesHash: "#places" };
   var main = document.getElementById("main");
 
   // ---------- helpers ----------
@@ -76,6 +76,8 @@
     var featured = state.places.filter(function (p) { return p.featured; })
       .sort(function (a, b) { return (a.featured_order || a.rank) - (b.featured_order || b.rank); });
     main.querySelector("#featured-cards").innerHTML = featured.map(function (p) { return card(p); }).join("");
+    var up = upcoming().slice(0, 3), box = main.querySelector("#home-events");
+    if (box && up.length) box.innerHTML = '<div class="section-head"><h2>Coming up</h2><a href="#events">All events →</a></div><div class="events">' + up.map(function (e) { return eventCard(e, false); }).join("") + "</div>";
     document.title = "DC Chinatown Restaurant Guide · The Lion's Path";
   }
 
@@ -189,6 +191,7 @@
       photo + note +
       '<p class="blurb">' + esc(p.blurb) + "</p>" +
       '<table class="facts"><tbody>' + rows.join("") + "</tbody></table>" +
+      placeEvents(p) + placeMedia(p) +
       '<section style="margin-top:16px">' + sources + "</section>" +
       '<p style="font-size:.85rem"><a href="#map-' + p.rank + '">Show on map</a></p>' +
       '<nav class="pager" aria-label="Previous and next place">' +
@@ -286,6 +289,81 @@
     }
   }
 
+  // ---------- events ----------
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  function pd(s) { var a = s.split("-").map(Number); return new Date(a[0], a[1] - 1, a[2]); }
+  function today() { var d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+  function dateRange(e) {
+    var s = pd(e.start), f = pd(e.end || e.start);
+    if (+s === +f) return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][s.getDay()] + ", " + MON[s.getMonth()] + " " + s.getDate();
+    if (s.getMonth() === f.getMonth()) return MON[s.getMonth()] + " " + s.getDate() + "–" + f.getDate();
+    return MON[s.getMonth()] + " " + s.getDate() + " – " + MON[f.getMonth()] + " " + f.getDate();
+  }
+  function upcoming() {
+    if (!state.events) return [];
+    var t = today();
+    return (state.events.dated || []).filter(function (e) { return pd(e.end || e.start) >= t; })
+      .sort(function (a, b) { return pd(a.start) - pd(b.start); });
+  }
+  function placeLinks(ranks) {
+    return (ranks || []).map(function (r) {
+      var p = state.byRank[r];
+      return p ? '<a href="#place-' + r + '">' + r + ". " + esc(p.name) + "</a>" : "";
+    }).join(", ");
+  }
+  function srcLinks(srcs) {
+    return (srcs || []).map(function (s) { return '<a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(s.label) + "</a>"; }).join(" · ");
+  }
+  function eventCard(e, recurring) {
+    var when = recurring ? esc(e.schedule) : esc(dateRange(e)) + (e.time ? " · " + esc(e.time) : "");
+    return '<article class="event">' +
+      '<div class="event-when">' + when + "</div>" +
+      '<h3 class="event-title">' + esc(e.title) + "</h3>" +
+      (e.where ? '<div class="event-where">' + esc(e.where) + "</div>" : "") +
+      '<p class="event-desc">' + esc(e.description) + "</p>" +
+      '<div class="event-meta">At: ' + placeLinks(e.ranks) + "</div>" +
+      '<div class="event-src">Source: ' + srcLinks(e.sources) + "</div></article>";
+  }
+  function viewEvents() {
+    setNav("events");
+    document.title = "Events · DC Chinatown Restaurant Guide";
+    var ev = state.events;
+    if (!ev) { main.innerHTML = '<section><h1>Events</h1><p class="empty">The events list did not load.</p></section>'; return; }
+    var list = upcoming(), html = '<h1 style="margin:22px 0 4px">Events</h1>' +
+      '<p style="color:var(--muted);margin:0 0 4px;font-size:.92rem">What the places in this guide have announced through ' + esc(MONTHS[pd(ev.window_end).getMonth()] + " " + pd(ev.window_end).getFullYear()) +
+      ', taken from their own websites and Instagram. Plans change, so check with the restaurant before you go.</p>' +
+      '<span class="asof">Checked ' + esc((function (d) { return MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear(); })(pd(ev.checked))) + "</span>";
+    if (list.length) {
+      var cur = "";
+      list.forEach(function (e) {
+        var s = pd(e.start), t = today(), m = s < t ? t : s, key = MONTHS[m.getMonth()] + " " + m.getFullYear();
+        if (key !== cur) { if (cur) html += "</div>"; html += '<h2 class="month">' + key + '</h2><div class="events">'; cur = key; }
+        html += eventCard(e, false);
+      });
+      html += "</div>";
+    } else html += '<p class="empty">No dated events are on the calendar right now.</p>';
+    if ((ev.recurring || []).length) {
+      html += '<h2 class="month">Every week</h2><div class="events">' + ev.recurring.map(function (e) { return eventCard(e, true); }).join("") + "</div>";
+    }
+    if (ev.not_yet_announced) html += '<p class="group-note" style="margin-top:18px">' + esc(ev.not_yet_announced) + "</p>";
+    html += '<p class="group-note">Events are listed for information only. They are run by the restaurants, not by The Lion\'s Path.</p>';
+    main.innerHTML = html;
+  }
+  function placeEvents(p) {
+    if (!state.events) return "";
+    var mine = upcoming().filter(function (e) { return (e.ranks || []).indexOf(p.rank) > -1; })
+      .map(function (e) { return eventCard(e, false); })
+      .concat((state.events.recurring || []).filter(function (e) { return (e.ranks || []).indexOf(p.rank) > -1; }).map(function (e) { return eventCard(e, true); }));
+    return mine.length ? '<section><h2 class="sub">Events</h2><div class="events">' + mine.join("") + '</div><p class="group-note"><a href="#events">All events →</a></p></section>' : "";
+  }
+  function placeMedia(p) {
+    if (!(p.media || []).length) return "";
+    return '<section><h2 class="sub">In the news</h2><ul class="media">' + p.media.map(function (m) {
+      return '<li><a href="' + esc(m.url) + '" rel="noopener" target="_blank">' + esc(m.title) + '</a><span class="small">' + esc(m.outlet) + (m.date ? " · " + esc(m.date) : "") + "</span></li>";
+    }).join("") + "</ul></section>";
+  }
+
   function viewAbout(anchor) {
     setNav("about");
     main.innerHTML = "";
@@ -317,6 +395,7 @@
     else if (h === "places") viewPlaces({});
     else if ((m = h.match(/^places-([a-z0-9-]+)$/))) viewPlaces({ c: m[1] });
     else if ((m = h.match(/^place-(\d+)$/))) viewPlace(m[1]);
+    else if (h === "events") viewEvents();
     else if (h === "about") viewAbout();
     else if (h === "credits") scrolled = viewAbout("credits");
     else viewNotFound();
@@ -330,10 +409,12 @@
   function boot() {
     Promise.all([
       fetch("guide-data.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
-      fetch("site-notes.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+      fetch("site-notes.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+      fetch("events.json").then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]).then(function (res) {
       state.data = res[0];
       state.notes = res[1] || {};
+      state.events = res[2];
       state.places = (state.data.places || []).slice().sort(function (a, b) { return a.rank - b.rank; });
       state.places.forEach(function (p) { state.byRank[p.rank] = p; });
       fillAsOf(document);

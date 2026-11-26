@@ -19,6 +19,22 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 
 ---
 
+## 2026-11-26 · Claude: events calendar, "In the news" links, Ambrosia hours
+
+Hudson asked for an events calendar from the restaurants' websites and social media, and for news and media links on each place. Hudson chose to include dated special events and recurring nights, covering three months (through Feb 28, 2027).
+
+**New file: `events.json`.** It has two lists: dated events and recurring nights. Every item cites the restaurant's own website or Instagram, or the event organizer, and nothing is an offer or deal. Deals were left out on purpose (BRIEF.md rule 3): Lucky Danger's $25 lunch and Wok and Roll's Thanksgiving karaoke promotion. The website has a new **Events** tab, a "Coming up" block on the home page, and an Events section on each place page.
+
+- Dated: Lucky Danger and Daikaya (Booth 72) at the DowntownDC Holiday Market, Nov 13–Dec 23; Thanksgiving closures and hours; Lucky Danger Chinese mahjong classes on Dec 9 and Dec 16 ($35, ticketed).
+- Recurring: Lucky Danger's weekly mahjong classes and hourly table rental; nightly karaoke at Wok and Roll (606 H St NW).
+- No place had posted Christmas, New Year's Eve or Lunar New Year (Feb 6, 2027) plans yet.
+
+**New field in `guide-data.json` / CSV: `media`.** A list of {outlet, date, title, url} for press coverage. The titles are descriptions, not quoted headlines. Every link was found by search, and the PoPville links for Cinnara, Luna Hall and Sharetea were opened and checked. Places 15 (Tous les Jours) and 18 have little or no press.
+
+**✱ Listing change for the PDF: 2 Ambrosia hours.** Ambrosia's Instagram (Nov 9 and 12, 2026) announced new hours: Mon–Wed 11 a.m.–10 p.m., open 24 hours Thu–Sun. Google matches. Hours now read "Mon–Wed 11 a.m.–10 p.m.; open 24 hours Thu–Sun (from 11 a.m. Thursday through 10 p.m. Monday)". **The blurb's last sentence is now wrong** ("keeps night-owl hours: 1 a.m. on weeknights, 2 a.m. Friday to Sunday"). Claude left the blurb as written and added a visible note on the site. Grok, please propose a corrected sentence for both the site and the PDF.
+
+---
+
 ## 2026-11-26 · Claude: Google / Apple Maps / website / Instagram check of all 22 places
 
 Hudson asked Claude to check every place against its Google listing, Apple Maps listing, website and social media, and to add map links. Hudson approved Claude editing `guide-data.json` and `guide-data.csv` directly for this round.

@@ -1,0 +1,173 @@
+{
+  "_about": "Events calendar for the website. Dated special events and recurring nights at the 22 guide places, Nov 26, 2026 – Feb 28, 2027. Every item cites the restaurant's own website or Instagram, or the event organizer. No offers, discounts or deals (BRIEF.md rule 3). Re-check before each publish.",
+  "window_start": "2026-11-26",
+  "window_end": "2027-02-28",
+  "checked": "2026-11-26",
+  "dated": [
+    {
+      "id": "ld-holiday-market",
+      "ranks": [
+        1
+      ],
+      "title": "Lucky Danger at the DowntownDC Holiday Market",
+      "start": "2026-11-13",
+      "end": "2026-12-23",
+      "time": "Closed Thanksgiving Day; check the market's site for daily hours",
+      "where": "F St NW between 7th and 9th Streets",
+      "description": "Lucky Danger has a food stall at the open-air holiday market, where it is making dumplings.",
+      "sources": [
+        {
+          "label": "Lucky Danger on Instagram, Nov 24, 2026",
+          "url": "https://www.instagram.com/_luckydanger/p/DgIOhifkcJi/"
+        },
+        {
+          "label": "DowntownDC Holiday Market vendor list",
+          "url": "https://www.downtowndc.org/holiday-market/vendors/"
+        },
+        {
+          "label": "FOX 5 DC: what to know about the 2026 market",
+          "url": "https://www.fox5dc.com/news/2026-downtowndc-holiday-market-returns-its-longest-season-yet-what-know"
+        }
+      ]
+    },
+    {
+      "id": "daikaya-holiday-market",
+      "ranks": [
+        17,
+        18
+      ],
+      "title": "Daikaya at the DowntownDC Holiday Market (Booth 72)",
+      "start": "2026-11-13",
+      "end": "2026-12-23",
+      "time": "Closed Thanksgiving Day; check the market's site for daily hours",
+      "where": "Booth 72, F St NW between 7th and 9th Streets",
+      "description": "Daikaya runs Booth 72 at the holiday market, serving its cheesesteak from Kat's King of Steaks.",
+      "sources": [
+        {
+          "label": "Daikaya Ramen Shop on Instagram, Nov 13, 2026",
+          "url": "https://www.instagram.com/daikaya_ramen/p/Dfsm7uSGQXV/"
+        },
+        {
+          "label": "DowntownDC Holiday Market vendor list",
+          "url": "https://www.downtowndc.org/holiday-market/vendors/"
+        },
+        {
+          "label": "FOX 5 DC: what to know about the 2026 market",
+          "url": "https://www.fox5dc.com/news/2026-downtowndc-holiday-market-returns-its-longest-season-yet-what-know"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-2026",
+      "ranks": [
+        1,
+        2,
+        17,
+        19,
+        20
+      ],
+      "title": "Thanksgiving hours",
+      "start": "2026-11-26",
+      "end": "2026-11-30",
+      "time": null,
+      "where": null,
+      "description": "Closed on Thanksgiving Day, Nov 26: Lucky Danger, Daikaya Ramen Shop, Bantam King and Kura (Kura closes at 9 p.m. on Friday, Nov 27). Ambrosia is open on Thanksgiving and says it will serve nonstop from 11 a.m. Friday, Nov 27, through 10 p.m. Monday, Nov 30.",
+      "sources": [
+        {
+          "label": "Lucky Danger on Instagram",
+          "url": "https://www.instagram.com/_luckydanger/p/Df3KaS3NMnI/"
+        },
+        {
+          "label": "Daikaya Ramen Shop on Instagram",
+          "url": "https://www.instagram.com/daikaya_ramen/p/DgJADy5BpTl/"
+        },
+        {
+          "label": "Bantam King on Instagram",
+          "url": "https://www.instagram.com/bantamkingdc/p/DgI9K8qhtO2/"
+        },
+        {
+          "label": "Kura DC location page",
+          "url": "https://kurasushi.com/locations/washington-dc/"
+        },
+        {
+          "label": "Ambrosia on Instagram",
+          "url": "https://www.instagram.com/ambrosiadc/p/DgLNVlnt7Ln/"
+        }
+      ]
+    },
+    {
+      "id": "ld-mahjong-2026-12-09",
+      "ranks": [
+        1
+      ],
+      "title": "Chinese Mahjong Class at Lucky Danger",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "time": "6–8:30 p.m. (class starts 6:30 p.m.)",
+      "where": "Lucky Danger's mahjong room, 709 D St NW",
+      "description": "A ticketed beginner class in Chinese-style mahjong ($35 per person, reserve ahead). Cancellations need 48 hours' notice.",
+      "sources": [
+        {
+          "label": "Lucky Danger events page",
+          "url": "https://www.luckydanger.co/lucky-danger-events"
+        }
+      ]
+    },
+    {
+      "id": "ld-mahjong-2026-12-16",
+      "ranks": [
+        1
+      ],
+      "title": "Chinese Mahjong Class at Lucky Danger",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "time": "6–8 p.m. (class starts 6:30 p.m.)",
+      "where": "Lucky Danger's mahjong room, 709 D St NW",
+      "description": "A ticketed beginner class in Chinese-style mahjong ($35 per person, reserve ahead). Cancellations need 48 hours' notice.",
+      "sources": [
+        {
+          "label": "Lucky Danger events page",
+          "url": "https://www.luckydanger.co/lucky-danger-events"
+        }
+      ]
+    }
+  ],
+  "recurring": [
+    {
+      "id": "ld-mahjong-weekly",
+      "ranks": [
+        1
+      ],
+      "title": "Mahjong classes and table time at Lucky Danger",
+      "schedule": "Classes weekly (dates posted on Lucky Danger's events page); tables bookable by the hour through OpenTable",
+      "description": "The back room has three automatic shuffling tables, set up for Chinese or American style. Private classes for up to 15 people need three weeks' notice.",
+      "sources": [
+        {
+          "label": "Lucky Danger mahjong page",
+          "url": "https://www.luckydanger.co/mahjong"
+        },
+        {
+          "label": "Lucky Danger events page",
+          "url": "https://www.luckydanger.co/lucky-danger-events"
+        }
+      ]
+    },
+    {
+      "id": "wok-karaoke-nightly",
+      "ranks": [
+        3
+      ],
+      "title": "Karaoke at Wok and Roll",
+      "schedule": "Nightly: Sun–Tue 4 p.m.–1 a.m.; Wed–Thu 4 p.m.–2 a.m.; Fri–Sat 2 p.m.–3 a.m.",
+      "where": "606 H St NW, next door to the restaurant",
+      "description": "Private karaoke rooms of different sizes, booked separately from the restaurant.",
+      "sources": [
+        {
+          "label": "Wok and Roll karaoke hours",
+          "url": "https://www.wokandrolldc.com/daily-hours"
+        }
+      ]
+    }
+  ],
+  "not_yet_announced": "No Christmas, New Year's Eve or Lunar New Year (Feb 6, 2027) plans had been posted by any of the 22 places as of November 26, 2026."
+}

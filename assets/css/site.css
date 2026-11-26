@@ -207,6 +207,22 @@ figcaption { font-size: .8rem; color: var(--muted); margin-top: 6px; }
 .map-index li { break-inside: avoid; margin: 0 0 6px; display: flex; gap: 8px; align-items: baseline; }
 .map-index .pin { width: 22px; height: 22px; font-size: .7rem; box-shadow: none; }
 
+/* Events */
+.month { margin: 26px 0 10px; font-size: 1.3rem; }
+.events { display: grid; gap: 10px; }
+.event { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 10px; padding: 12px 14px; }
+.event-when { font-size: .8rem; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: .04em; }
+.event-title { font-size: 1.1rem; margin: 4px 0 2px; }
+.event-where { font-size: .85rem; color: var(--ink-2); }
+.event-desc { font-size: .93rem; margin: 6px 0; }
+.event-meta, .event-src { font-size: .8rem; color: var(--muted); }
+h2.sub { font-size: 1.25rem; margin: 22px 0 10px; }
+ul.media { list-style: none; padding: 0; margin: 0; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); }
+ul.media li { padding: 10px 14px; border-bottom: 1px solid var(--line); }
+ul.media li:last-child { border-bottom: 0; }
+ul.media a { font-weight: 600; text-decoration: none; }
+ul.media .small { display: block; font-size: .8rem; color: var(--muted); }
+
 /* About */
 .about-hero { background: var(--red); color: var(--cream); margin: 0 -16px; padding: 28px 20px; text-align: center; }
 .about-hero img.logo { width: 120px; height: 120px; margin: 0 auto 12px; background: var(--cream); border-radius: 50%; padding: 10px; }

@@ -123,7 +123,27 @@
       "apple_place_id": "IE04107A0A90CEB86",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IE04107A0A90CEB86",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "Washingtonian",
+          "date": "2026",
+          "title": "Named one of the 100 Very Best Restaurants of 2026",
+          "url": "https://washingtonian.com/100-very-best-restaurants-2026/lucky-danger/"
+        },
+        {
+          "outlet": "Axios DC",
+          "date": "May 21, 2025",
+          "title": "On Tim Ma's full-service Lucky Danger opening",
+          "url": "https://www.axios.com/local/washington-dc/2025/05/21/lucky-danger-tim-ma-chinese-american-restaurant"
+        },
+        {
+          "outlet": "Washingtonian",
+          "date": "May 13, 2025",
+          "title": "Opening preview of the restaurant and mahjong bar",
+          "url": "https://washingtonian.com/2025/05/13/a-hip-chinese-american-restaurant-and-mahjong-bar-is-opening-penn-quarter/"
+        }
+      ]
     },
     {
       "rank": 2,
@@ -140,8 +160,8 @@
       "street": "H St NW",
       "lat": 38.89999,
       "lng": -77.02081,
-      "hours": "Mon–Thu 10 a.m.–1 a.m.; Fri–Sun 10 a.m.–2 a.m.",
-      "hours_source": "PoPville, Sep 1, 2026, quoting the restaurant; Ambrosia’s own site returned HTTP 503 on Nov 26, 2026",
+      "hours": "Mon–Wed 11 a.m.–10 p.m.; open 24 hours Thu–Sun (from 11 a.m. Thursday through 10 p.m. Monday)",
+      "hours_source": "Ambrosia on Instagram (@ambrosiadc), posts of Nov 9 and Nov 12, 2026; matches its Google listing. Replaces the September 2026 PoPville hours.",
       "walk": "0.3 mi · about 7 min walk",
       "walk_distance_mi": 0.3,
       "walk_time_min": 7,
@@ -163,6 +183,10 @@
         {
           "label": "Restaurant site",
           "url": "https://ambrosiadc.vercel.app/"
+        },
+        {
+          "label": "Ambrosia on Instagram: new hours, Nov 9, 2026",
+          "url": "https://www.instagram.com/ambrosiadc/reel/DfirT5NBRbo/"
         }
       ],
       "photo": null,
@@ -171,7 +195,21 @@
       "apple_place_id": "I90BC4E8B7DBA4902",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I90BC4E8B7DBA4902",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Sep 2026",
+          "title": "Opening report: Ambrosia opens in the former Tony Cheng's space",
+          "url": "https://www.popville.com/2026/09/ambrosia-vietnamese-restaurant-open-tony-chengs-dc-chinatown/"
+        },
+        {
+          "outlet": "PoPville",
+          "date": "Sep 2026",
+          "title": "Ambrosia's signage goes up on H Street",
+          "url": "https://www.popville.com/2026/09/washington-dc-ambrosia-signage-vietnamese-restaurant-tony-cheng-chinatown/"
+        }
+      ]
     },
     {
       "rank": 3,
@@ -230,7 +268,27 @@
       "apple_place_id": "IA9169542454EAEE9",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IA9169542454EAEE9",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PBS NewsHour",
+          "date": null,
+          "title": "On the building's history: the Surratt boarding house, now a karaoke spot",
+          "url": "https://www.pbs.org/newshour/nation/lincolns-assassination-planned-d-c-karaoke-spot"
+        },
+        {
+          "outlet": "Ghosts of DC",
+          "date": "Mar 2, 2015",
+          "title": "The Mary Surratt house and Wok and Roll",
+          "url": "https://ghostsofdc.org/2015/03/02/mary-surratt-house-wok-roll-dc/"
+        },
+        {
+          "outlet": "City Cast DC",
+          "date": null,
+          "title": "Included in its guide to DC karaoke bars",
+          "url": "https://dc.citycast.fm/best/best-karaoke-bars-dc"
+        }
+      ]
     },
     {
       "rank": 4,
@@ -274,7 +332,21 @@
       "apple_place_id": "IA7DB1070BED2B57D",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IA7DB1070BED2B57D",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "Washingtonian",
+          "date": "Oct 21, 2025",
+          "title": "Feature on Chinatown's last Chinese-owned businesses",
+          "url": "https://washingtonian.com/2025/10/21/inside-chinatowns-last-chinese-businesses/"
+        },
+        {
+          "outlet": "The Infatuation",
+          "date": "2024",
+          "title": "Review",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/joy-luck-house"
+        }
+      ]
     },
     {
       "rank": 5,
@@ -318,7 +390,15 @@
       "apple_place_id": "I4EA7FC16144D8D8D",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I4EA7FC16144D8D8D",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "May 2016",
+          "title": "Opening report: Reren soft-opens in Chinatown",
+          "url": "https://www.popville.com/2016/05/reren-lamen-bar-soft-opens-in-former-mehak-space-in-chinatown/"
+        }
+      ]
     },
     {
       "rank": 6,
@@ -369,7 +449,15 @@
       "apple_place_id": "I43B5BD0BB0D42311",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I43B5BD0BB0D42311",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Washington Post",
+          "date": "Feb 19, 2015",
+          "title": "On how the restaurant adapted to changing tastes",
+          "url": "https://www.washingtonpost.com/news/going-out-guide/wp/2015/02/19/how-can-a-flagging-chinese-restaurant-keep-up-with-changing-tastes-become-more-chinese/"
+        }
+      ]
     },
     {
       "rank": 7,
@@ -413,7 +501,21 @@
       "apple_place_id": "I8ACE55C77FD4FE7E",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I8ACE55C77FD4FE7E",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Jan 2025",
+          "title": "Chinatown Express reopens after renovations",
+          "url": "https://www.popville.com/2025/01/chinatown-express-has-reopened-after-renovations/"
+        },
+        {
+          "outlet": "Washingtonian",
+          "date": "Jun 2004",
+          "title": "Earlier write-up of Chinatown Express",
+          "url": "https://www.washingtonian.com/2004/06/01/june-2004-chinatown-express"
+        }
+      ]
     },
     {
       "rank": 8,
@@ -461,7 +563,15 @@
       "apple_place_id": "ID61D49C7BE840F43",
       "apple_maps_url": "https://maps.apple.com/place?place-id=ID61D49C7BE840F43",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Infatuation",
+          "date": null,
+          "title": "Review",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/new-big-wong"
+        }
+      ]
     },
     {
       "rank": 9,
@@ -509,7 +619,21 @@
       "apple_place_id": "IEB5CC1BFEC8C5B45",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IEB5CC1BFEC8C5B45",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "Time Out Washington DC",
+          "date": null,
+          "title": "Review",
+          "url": "https://www.timeout.com/washington-dc/restaurants/china-boy"
+        },
+        {
+          "outlet": "DCist",
+          "date": "Jan 22, 2016",
+          "title": "Included in DCist's roundup of the city's best noodles",
+          "url": "https://dcist.com/story/16/01/22/best-noodles/"
+        }
+      ]
     },
     {
       "rank": 10,
@@ -561,7 +685,15 @@
       "apple_place_id": "IACBD4F43762C35CB",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IACBD4F43762C35CB",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "May 16, 2023",
+          "title": "On the space's previous concept, Bonkers' Chinese Burger, at 736 6th St NW",
+          "url": "https://www.popville.com/2023/05/bonkers-chinese-burger-chinatown/"
+        }
+      ]
     },
     {
       "rank": 11,
@@ -613,7 +745,21 @@
       "apple_place_id": "ID743F78AA005E749",
       "apple_maps_url": "https://maps.apple.com/place?place-id=ID743F78AA005E749",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Infatuation",
+          "date": null,
+          "title": "Review",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/dumpling-district"
+        },
+        {
+          "outlet": "PoPville",
+          "date": "Jun 7, 2023",
+          "title": "Luna Hall soft-opens at 625 H St NW",
+          "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
+        }
+      ]
     },
     {
       "rank": 12,
@@ -661,7 +807,15 @@
       "apple_place_id": "IEF3E961DA1C745D0",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IEF3E961DA1C745D0",
       "map_listing_note": "Google lists Kung Fu Tea and TKK Chicken as one counter.",
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Jun 7, 2023",
+          "title": "Luna Hall soft-opens with Kung Fu Tea",
+          "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
+        }
+      ]
     },
     {
       "rank": 13,
@@ -713,7 +867,15 @@
       "apple_place_id": "IEF3E961DA1C745D0",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IEF3E961DA1C745D0",
       "map_listing_note": "Shares its Google and Apple Maps listings with Kung Fu Tea (same counter).",
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Infatuation",
+          "date": null,
+          "title": "Review",
+          "url": "https://www.theinfatuation.com/washington-dc/reviews/tkk-fried-chicken-dc"
+        }
+      ]
     },
     {
       "rank": 14,
@@ -761,7 +923,15 @@
       "apple_place_id": "IB631F771560A032",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IB631F771560A032",
       "map_listing_note": "No separate map listing; links go to Luna Hall.",
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Jun 7, 2023",
+          "title": "Luna Hall soft-opens at 625 H St NW",
+          "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
+        }
+      ]
     },
     {
       "rank": 15,
@@ -813,7 +983,8 @@
       "apple_place_id": "IE21A97CB3DFE45FA",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IE21A97CB3DFE45FA",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": []
     },
     {
       "rank": 16,
@@ -861,7 +1032,15 @@
       "apple_place_id": "IB631F771560A032",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IB631F771560A032",
       "map_listing_note": "No separate map listing; links go to Luna Hall.",
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Jun 7, 2023",
+          "title": "Luna Hall soft-opens at 625 H St NW",
+          "url": "https://www.popville.com/2023/06/luna-hall-dc-chinatown-bonkers-burgers-90-second-pizza/"
+        }
+      ]
     },
     {
       "rank": 17,
@@ -912,7 +1091,27 @@
       "apple_place_id": "IA39E97458305ED19",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IA39E97458305ED19",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Infatuation",
+          "date": null,
+          "title": "Review",
+          "url": "https://theinfatuation.com/washington-dc/reviews/daikaya"
+        },
+        {
+          "outlet": "Time Out Washington DC",
+          "date": null,
+          "title": "Review",
+          "url": "https://www.timeout.com/washington-dc/restaurants/daikaya"
+        },
+        {
+          "outlet": "Washingtonian",
+          "date": "Feb 2017",
+          "title": "Listed in the 100 Very Best Restaurants of 2017",
+          "url": "https://www.washingtonian.com/2017/02/15/74-100-best-restaurants-2017-daikaya"
+        }
+      ]
     },
     {
       "rank": 18,
@@ -956,7 +1155,15 @@
       "apple_place_id": "I8AFE09099E0C74B4",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I8AFE09099E0C74B4",
       "map_listing_note": "Google lists Daikaya's two floors as one place; Apple lists the Izakaya separately.",
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "Time Out Washington DC",
+          "date": null,
+          "title": "Review of the upstairs izakaya",
+          "url": "https://timeout.com/washington-dc/bars/daikaya-upstairs-izakaya"
+        }
+      ]
     },
     {
       "rank": 19,
@@ -1000,7 +1207,27 @@
       "apple_place_id": "IFC55E550CEB018DA",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IFC55E550CEB018DA",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "The Infatuation",
+          "date": null,
+          "title": "Review",
+          "url": "https://theinfatuation.com/washington-dc/reviews/bantam-king"
+        },
+        {
+          "outlet": "Washingtonian",
+          "date": "Oct 2018",
+          "title": "Listed in Cheap Eats 2018",
+          "url": "https://washingtonian.com/2018/10/01/cheap-eats-2018-bantam-king/"
+        },
+        {
+          "outlet": "PoPville",
+          "date": "Jun 2016",
+          "title": "Opening report",
+          "url": "https://www.popville.com/2016/06/boom-bantam-kings-opens-at-5pm-with-ramen-fried-chicken-and-more/"
+        }
+      ]
     },
     {
       "rank": 20,
@@ -1044,7 +1271,21 @@
       "apple_place_id": "I3C83AEBC123A894E",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I3C83AEBC123A894E",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "DCist",
+          "date": "Jan 25, 2021",
+          "title": "First look at Kura's conveyor-belt sushi in Chinatown",
+          "url": "https://dcist.com/story/21/01/25/first-look-kura-sushi-chinatown-dc-conveyer-belt/"
+        },
+        {
+          "outlet": "PoPville",
+          "date": "Nov 2020",
+          "title": "Opening report",
+          "url": "https://www.popville.com/2020/11/kura-revolving-sushi-bar-open-dc-chinatown/"
+        }
+      ]
     },
     {
       "rank": 21,
@@ -1092,7 +1333,15 @@
       "apple_place_id": "I6D4CB096337656C3",
       "apple_maps_url": "https://maps.apple.com/place?place-id=I6D4CB096337656C3",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "Eater DC",
+          "date": null,
+          "title": "Venue page",
+          "url": "https://dc.eater.com/venue/47463/pho-88-noodles-and-grill"
+        }
+      ]
     },
     {
       "rank": 22,
@@ -1136,7 +1385,15 @@
       "apple_place_id": "IBD209825185C7088",
       "apple_maps_url": "https://maps.apple.com/place?place-id=IBD209825185C7088",
       "map_listing_note": null,
-      "listings_checked": "2026-11-26"
+      "listings_checked": "2026-11-26",
+      "media": [
+        {
+          "outlet": "PoPville",
+          "date": "Jul 5, 2018",
+          "title": "Opening report: Sharetea opens at 519 H St NW",
+          "url": "https://www.popville.com/2018/07/authentic-taiwanese-tea-opens-today-in-chinatown/"
+        }
+      ]
     }
   ],
   "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared)."
