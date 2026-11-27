@@ -4,6 +4,10 @@ Text is taken from the text-and-map print edition (`dc-chinatown-restaurant-guid
 
 Per-place blurbs live in `guide-data.json` (`blurb`) and must be used exactly as written, unless a later fact-check requires a correction.
 
+Ambrosia blurb, corrected November 27, 2026 (the old last sentence still cited 1 a.m. / 2 a.m. closes):
+
+> Modern Vietnamese (pho, banh mi, wok dishes, cocktails) now fills the old Tony Cheng's space, a quiet changing of the guard on H Street. It opened in late August 2026 and now stays open around the clock from 11 a.m. Thursday through 10 p.m. Monday; Tuesday and Wednesday it closes at 10 p.m.
+
 ---
 
 ## Cover lines

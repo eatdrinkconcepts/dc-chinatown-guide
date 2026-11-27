@@ -1,6 +1,6 @@
 # Photo credits
 
-Only these three photographs may be used in the web guide. They are from Wikimedia Commons. Show the credit (author, license, and link) next to each image, and again on an About / credits page. Do not use any other restaurant photos — including other files that may exist in Lion's Path working folders — without a separate rights clearance.
+Only these seven photographs may be used in the web guide and the print edition. They are from Wikimedia Commons. Show the credit (author, license, and link) next to each image, and again on an About / credits page. The original three were joined by four more after Hudson approved that additional rights clearance on November 26, 2026. Do not use any other restaurant photos — including scraped, stock, AI-generated, or restaurant-owned images, or other files that may exist in Lion's Path working folders — without written permission.
 
 The cover of the print guide uses the same Chinatown Garden photograph as entry #6. No stock or AI-generated images were used. Some photographs are several years old; dates are given in the captions where known.
 
@@ -39,7 +39,7 @@ Street lines and landmarks on the map are **© OpenStreetMap contributors** ([op
 
 ## Places with no reusable photo
 
-The remaining 19 places in the guide have no cleared photograph. Do not invent, scrape, or substitute photos for them. The print text-and-map edition layouts those entries as typography-only, which the web guide can also do.
+After the four photographs added on November 26, 2026, 15 of the 22 places still have no cleared photograph (New Big Wong and PHO 88 share one storefront image; Wok and Roll has a storefront and an interior). Do not invent, scrape, or substitute photos for them. The print text-and-map edition layouts those entries as typography-only, which the web guide can also do.
 
 ## Added November 26, 2026 (approved by Hudson as a separate rights clearance)
 
