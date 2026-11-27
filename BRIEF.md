@@ -2,7 +2,7 @@
 
 This package is a handoff from The Lion's Path so a web guide can be built for people visiting DC's Chinatown, especially guests of events at the Walter E. Washington Convention Center. It is based on the text-and-map print edition in this folder (`dc-chinatown-restaurant-guide-2027.pdf`).
 
-The print PDF is a reference for tone, order, typography, and layout decisions. The structured data, copy, map, and the three cleared photographs in this package are what the site should be built from.
+The print PDF is a reference for tone, order, typography, and layout decisions. The structured data, copy, map, and the seven cleared Wikimedia photographs in this package are what the site should be built from.
 
 **Nothing in this package has been published yet.** Data should be re-verified before the site goes live. No restaurant has agreed to appear in this guide, to host visitors, or to offer anything. The site must not imply a partnership, sponsorship, endorsement, discount, or official relationship with any restaurant.
 
@@ -17,7 +17,7 @@ Point readers to Instagram **@lionspathdc** (`https://www.instagram.com/lionspat
 1. **Lucky Danger is #1. Ambrosia is #2.** Keep that featured ranking. Do not reorder the six featured places (Lucky Danger, Ambrosia, Wok and Roll, Joy Luck House, Reren Lamen & Bar, Chinatown Garden).
 2. **Never describe Lion's Path as a “bridge between City Hall and Chinatown”** (or “between City Hall and the Chinatown community”). That wording was deliberately removed and must not be reused or paraphrased back in.
 3. **No discount card, no offers, no implied deals.** The expired print discount card was removed and must stay out.
-4. **Use only the three photographs in `photos/`, with credits shown** next to each image and on a credits page. Credit lines and license URLs are in `photo-credits.md`. Do not scrape, generate, or substitute other restaurant photos.
+4. **Use only the seven photographs in `photos/`, with credits shown** next to each image and on a credits page. Credit lines and license URLs are in `photo-credits.md`. Hudson approved four additional Wikimedia Commons photographs on November 26, 2026, as a separate rights clearance beyond the original three-photo rule (seven openly licensed images in all). Do not scrape, generate, or substitute other restaurant photos, including stock, AI-generated, or restaurant-owned images, without written permission.
 5. **Point to Instagram @lionspathdc**, including the QR in `brand/` if a print-like or shareable treatment is useful.
 6. **Keep the guidebook voice** (Sutton / Lam): specific dishes only when a source names them, no hype, no invented color.
 7. **Do not imply partnership.** A listing is not an agreement. Do not use language such as “partner restaurants,” “official picks in collaboration with,” or “recommended by the restaurants themselves.”
@@ -32,7 +32,7 @@ Treat these as open issues, not settled facts:
 
 - **Joy Luck House (748 6th St NW).** A Washingtonian piece (October 2025) said the lease was up in September 2026. Listings as of November 15, 2026 (official site hours; Restaurantji) still showed it open, and no closure notice was found. It remains in the guide, flagged only. Confirm it is still open before launch.
 - **New Big Wong opening time.** Closing times used here are 2 a.m. Sunday–Thursday and 3 a.m. Friday–Saturday (Destination DC late-night list, updated August 5, 2026, plus current listings). The opening time is disputed: the DowntownDC BID has listed 10:30 a.m.; some directories now show 4:30 p.m. The hours field already flags this. Do not invent an opening time.
-- **Ambrosia website down.** `https://ambrosiadc.vercel.app/` returned HTTP 503 on November 26, 2026. The URL is still listed. Hours in the entry come from a September 2026 PoPville report quoting the restaurant, not from a live official hours page that day.
+- **Ambrosia website down.** `https://ambrosiadc.vercel.app/` returned HTTP 503 (DEPLOYMENT_PAUSED) on November 26 and again on November 27, 2026. The URL is still listed. Hours and the blurb were updated on November 27 from Ambrosia's Instagram announcements of November 9 and 12, 2026 (open continuously from 11 a.m. Thursday through 10 p.m. Monday; Tuesday–Wednesday 11 a.m.–10 p.m.), corroborated that day by the DowntownDC BID listing. There is still no live official hours page.
 - **Tous les Jours and TKK Fried Chicken at Luna Hall (625 H St NW).** Tous les Jours' official store page listed the DC hall (Unit 101) as open on November 26, 2026, with hours that match the hall; Luna Hall Group's homepage still said “Coming Soon” for that stall. TKK Fried Chicken appears in current DC hall listings (including a combined Kung Fu Tea / TKK Yelp listing); TKK's national site does not list the address. Confirm both stalls before launch.
 - **Pelicana Chicken and Takumi** appear on Luna Hall Group's site as group brands but could not be confirmed at the DC hall; **Pollo Aria**, a former stall, has closed. None of these is in the 22. Carmen's Italian Ice is at the hall but is not an Asian restaurant and is not listed.
 - **China Boy and Chinatown Express hours** come from listings, not a usable official page, as of the November 26 refresh.
@@ -61,8 +61,8 @@ A footer “Current as of …” line, analogous to the print footer, should app
 | `guide-data.json` | All 22 places in guide order, plus guide metadata and cuisine-section intros |
 | `guide-data.csv` | The same place data, flattened for spreadsheets |
 | `copy.md` | Intro, history, section intros, map caption, and back-page / About copy |
-| `photo-credits.md` | Exact author, license, and Wikimedia URL for the three photos |
-| `photos/` | The three Wikimedia storefront photographs |
+| `photo-credits.md` | Exact author, license, and Wikimedia URL for the seven photos |
+| `photos/` | The seven Wikimedia photographs (three original storefronts, plus four added with Hudson's approval on November 26, 2026) |
 | `map/map.svg` | Self-contained street-grid map (same drawing as the print map) |
 | `map/map.png` | Raster export of that map |
 | `map/map-page.png` | The full map page from the print PDF, including legend, caption, and street index |

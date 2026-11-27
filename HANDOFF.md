@@ -19,6 +19,40 @@ Newest entry on top. Paste the latest entry to Grok (or attach this file) with e
 
 ---
 
+## 2026-11-27 · Pou-Pan (Grok): PDF follow-up, Ambrosia blurb, New Big Wong hours wording, BRIEF rule 4
+
+**When:** November 27, 2026, morning, America/New_York. Hudson approved the follow-ups from Claude's November 26 notes. No restaurant was contacted. Ranking is unchanged (Lucky Danger #1, Ambrosia #2). The "current as of" date was left as November 26, 2026; this was a targeted follow-up, not a full re-check of all 22.
+
+**1. New Big Wong hours (re-verified).** Claude's line ("Mon–Fri 4:30 p.m.–2 a.m. (Fri until 3 a.m.); Sat 4 p.m.–3 a.m.; Sun 4 p.m.–2 a.m.") and the earlier day-by-day line are the same schedule. Restaurantji (updated Nov 15, 2026) and Yelp still match the day-by-day version today. The official to-go site (newbigwongtogo.com) returned HTTP 429 (Vercel checkpoint) on Nov 27 and had previously shown inconsistent takeout hours. The DowntownDC BID page still lists 10:30 a.m.–2 a.m. Sunday–Thursday and 10:30 a.m.–4 a.m. Friday–Saturday (stale; `/go/new-big-wong/` now redirects to `/explore/places/new-big-wong/`). I kept the clearer day-by-day wording already in `guide-data.json`, refreshed `hours_source`, and kept the short BID caveat on the hours line. JSON and CSV are in step.
+
+**2. Ambrosia hours and blurb.** The official site was still HTTP 503 / DEPLOYMENT_PAUSED on Nov 27. The Nov 9 Instagram reel cited in the data (`https://www.instagram.com/ambrosiadc/reel/DfirT5NBRbo/`) did not expose a caption on a logged-out fetch. The DowntownDC BID listing, fetched today, corroborates the announced schedule: Monday 12 a.m.–10 p.m.; Tue–Wed 11 a.m.–10 p.m.; Thursday–Sunday open 24 hours. Hours were tightened so they are not read as a Monday 11 a.m. opening:
+
+> Open continuously from 11 a.m. Thursday through 10 p.m. Monday; Tue–Wed 11 a.m.–10 p.m.
+
+**Claude: please replace the Ambrosia blurb on the site with this exact text** (it is now in `guide-data.json`, `guide-data.csv`, and `copy.md`):
+
+> Modern Vietnamese (pho, banh mi, wok dishes, cocktails) now fills the old Tony Cheng's space, a quiet changing of the guard on H Street. It opened in late August 2026 and now stays open around the clock from 11 a.m. Thursday through 10 p.m. Monday; Tuesday and Wednesday it closes at 10 p.m.
+
+Please also clear the visible site note that the old last sentence is wrong, once the new blurb is up, and use the tightened hours line above.
+
+**3. Print PDF.** Regenerated from `guide-data.json` (15 letter pages, same length as the Nov 26 text edition). It now includes New Big Wong's hours, Ambrosia's hours and blurb, @wokandrollkaraoke, and the handles Hudson supplied (@ambrosiadc, @chinatowngardendc, @eatcinnara, @chinatownexpressdc, @phodumplingdistrictusa, @pho88_dc, @sharetea_dc_chinatown). All seven Wikimedia photographs are in the booklet, with the exact credit lines from `photo-credits.md`. Wok and Roll has the storefront and the interior side by side; New Big Wong and PHO 88 share the 608–610 H St photograph. The print PDF remains gitignored (`.gitignore` has `*.pdf`) and is not in the repository until Hudson approves it. The new file is at `/workspace/lions-path/restaurant-guide-2027/followup-2026.11.27/dc-chinatown-restaurant-guide-2027.pdf`, with page previews in that folder's `preview/`.
+
+**4. BRIEF.md rule 4.** Updated to the seven approved Wikimedia photographs (Hudson's Nov 26 clearance), still forbidding scraped, stock, AI, or restaurant-owned images without written permission. `photo-credits.md` intro was brought in line (Grok-owned). `copy.md` now records the Ambrosia blurb correction.
+
+**5. Official reserve / order / menu links.** Added only where an official page could be confirmed today:
+
+- **#12 Kung Fu Tea:** order `https://kft.orderexperience.net/650c9c69d73592bc0e0bd64b/menu` (linked from the official Luna Hall DC store page) and menu `https://www.kungfutea.com/our-drinks/` (brand drinks page).
+
+Still no confirmed official links for: **#2 Ambrosia** (site down); **#9 China Boy** (www and order.chinaboynoodledc.com did not load from this network; search results name the order subdomain, but it was not added unconfirmed); **#21 PHO 88** (pho88dc.com returned 403; a Clover page and pho88ngrill.com were not added because the official site could not be read to confirm the link); **#13 TKK** (tkkusa.com still has a brand menu and still does not list the DC address); **#16 Luna Bar** (Luna Hall Group site still HTTP 476 / under maintenance; the hall Toast page already used for Poke Ninja was not assumed to cover the bar).
+
+**Other data fixes (CSV was out of step with JSON, which is the master):** Kung Fu Tea hours/source, Chinatown Express and TKK hours_source, and a typo in Sharetea's website (`shareteadcdcchinatown.com` → `shareteadcchinatown.com`) were aligned to JSON. Wok and Roll's description source URL was updated from the dead @wokandrolldclife handle to @wokandrollkaraoke. New Big Wong's BID source URL was updated to the redirected `/explore/places/new-big-wong/` path.
+
+**Noted, not changed:** The visible Kung Fu Tea store line is still "Hours: 11:00 am – 9:30 pm" (and the guide still says daily 11 a.m.–9:30 p.m.), but the same official page's schema.org markup lists Friday–Saturday until 10:30 p.m. Left as a visible-line-wins conflict for a later check.
+
+**Not changed:** Rankings, other blurbs, walk times, the preview banner, `noindex`, `index.html`, `assets/`, `site-notes.json`, or the current-as-of date.
+
+---
+
 ## 2026-11-26 · Claude: more photos (Hudson approved a rights clearance beyond BRIEF.md rule 4)
 
 Hudson asked for photos on as many cards as possible, and approved adding openly licensed Wikimedia Commons photos as the "separate rights clearance" the brief requires. There are still no scraped, stock, AI-generated or restaurant-owned photos. Every image shows its credit next to it, and the About page now builds the photo credits list from the data. `photo-credits.md` sections 4–7 have the full details.

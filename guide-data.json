@@ -183,8 +183,8 @@
       "street": "H St NW",
       "lat": 38.89999,
       "lng": -77.02081,
-      "hours": "Mon–Wed 11 a.m.–10 p.m.; open 24 hours Thu–Sun (from 11 a.m. Thursday through 10 p.m. Monday)",
-      "hours_source": "Ambrosia on Instagram (@ambrosiadc), posts of Nov 9 and Nov 12, 2026; matches its Google listing. Replaces the September 2026 PoPville hours.",
+      "hours": "Open continuously from 11 a.m. Thursday through 10 p.m. Monday; Tue–Wed 11 a.m.–10 p.m.",
+      "hours_source": "Ambrosia on Instagram (@ambrosiadc), posts of Nov 9 and Nov 12, 2026 (https://www.instagram.com/ambrosiadc/reel/DfirT5NBRbo/ cited for Nov 9). The DowntownDC BID listing, fetched Nov 27, 2026, matches this schedule (Monday 12 a.m.–10 p.m.; Tue–Wed 11 a.m.–10 p.m.; Thursday–Sunday open 24 hours). The official site (ambrosiadc.vercel.app) was still HTTP 503 / DEPLOYMENT_PAUSED on Nov 27. The hours line was tightened on Nov 27 so it is not read as a Monday 11 a.m. opening: Monday remains a close at 10 p.m. after the Thursday-to-Monday overnight stretch.",
       "walk": "0.3 mi · about 7 min walk",
       "walk_distance_mi": 0.3,
       "walk_time_min": 7,
@@ -197,7 +197,7 @@
       "hall": null,
       "location": null,
       "status": "Open",
-      "blurb": "Modern Vietnamese (pho, banh mi, wok dishes, cocktails) now fills the old Tony Cheng's space, a quiet changing of the guard on H Street. It opened in late August 2026 and keeps night-owl hours: 1 a.m. on weeknights, 2 a.m. Friday to Sunday.",
+      "blurb": "Modern Vietnamese (pho, banh mi, wok dishes, cocktails) now fills the old Tony Cheng's space, a quiet changing of the guard on H Street. It opened in late August 2026 and now stays open around the clock from 11 a.m. Thursday through 10 p.m. Monday; Tuesday and Wednesday it closes at 10 p.m.",
       "sources": [
         {
           "label": "PoPville, Sep 2026",
@@ -275,7 +275,7 @@
         },
         {
           "label": "Wok and Roll on Instagram",
-          "url": "https://www.instagram.com/wokandrolldclife/"
+          "url": "https://www.instagram.com/wokandrollkaraoke/"
         },
         {
           "label": "Wikipedia: Mary Surratt Boarding House",
@@ -646,7 +646,7 @@
       "lat": 38.89967,
       "lng": -77.02059,
       "hours": "Mon–Thu 4:30 p.m.–2 a.m.; Fri 4:30 p.m.–3 a.m.; Sat 4 p.m.–3 a.m.; Sun 4 p.m.–2 a.m. Opening times are from directories; the DowntownDC BID still lists 10:30 a.m.",
-      "hours_source": "Directory hours, not a clean official page: Restaurantji (updated Nov 15, 2026) and matching current listings, rechecked Nov 26, 2026. The official to-go site (newbigwongtogo.com) showed inconsistent takeout hours that afternoon. The DowntownDC BID page still listed 10:30 a.m.–2 a.m. Sunday–Thursday and 10:30 a.m.–4 a.m. Friday–Saturday, which appears outdated.",
+      "hours_source": "Directory consensus, rechecked Nov 27, 2026: Restaurantji (updated Nov 15, 2026) and Yelp both list Mon–Thu 4:30 p.m.–2 a.m.; Fri 4:30 p.m.–3 a.m.; Sat 4 p.m.–3 a.m.; Sun 4 p.m.–2 a.m. That is the same schedule previously written as “Mon–Fri 4:30 p.m.–2 a.m. (Fri until 3 a.m.)…”. The day-by-day wording is kept because it is clearer. The official to-go site (newbigwongtogo.com) returned HTTP 429 (Vercel checkpoint) on Nov 27 and previously showed inconsistent takeout hours. The DowntownDC BID page still listed 10:30 a.m.–2 a.m. Sunday–Thursday and 10:30 a.m.–4 a.m. Friday–Saturday (stale; the former /go/new-big-wong/ URL now redirects to /explore/places/new-big-wong/).",
       "walk": "0.4 mi · about 7 min walk",
       "walk_distance_mi": 0.4,
       "walk_time_min": 7,
@@ -663,7 +663,7 @@
       "sources": [
         {
           "label": "Downtown DC BID",
-          "url": "https://www.downtowndc.org/go/new-big-wong/"
+          "url": "https://www.downtowndc.org/explore/places/new-big-wong/"
         },
         {
           "label": "The Infatuation",
@@ -983,8 +983,18 @@
         }
       ],
       "reserve": null,
-      "order": [],
-      "menu": null,
+      "order": [
+        {
+          "url": "https://kft.orderexperience.net/650c9c69d73592bc0e0bd64b/menu",
+          "label": "Order online",
+          "note": "Linked from the official Luna Hall DC store page."
+        }
+      ],
+      "menu": {
+        "url": "https://www.kungfutea.com/our-drinks/",
+        "label": "Menu (all stores)",
+        "note": null
+      },
       "photos_more": []
     },
     {
@@ -1695,5 +1705,5 @@
     }
   ],
   "listings_check_note": "Google and Apple Maps listings, official websites and Instagram accounts were checked for all 22 places on November 26, 2026 (Thanksgiving Day, so 'today' hours on some listings were holiday hours; regular weekly hours were compared).",
-  "actions_note": "Reserve, order and menu links were taken from each restaurant's own website on Nov 26, 2026 (third-party links only where the restaurant itself links to them). None found for 2 Ambrosia (site offline), 9 China Boy and 21 PHO 88 (sites would not load), 12 Kung Fu Tea, 13 TKK and 16 Luna Bar."
+  "actions_note": "Reserve, order and menu links were taken from each restaurant's own website (third-party links only where the restaurant itself links to them). On Nov 27, 2026, official order and menu links were added for 12 Kung Fu Tea (order URL linked from kungfutea.com/locations/district-of-columbia/; menu is the brand drinks page). Still none found for 2 Ambrosia (site still HTTP 503 / DEPLOYMENT_PAUSED), 9 China Boy (www and order.chinaboynoodledc.com did not load from this network), 21 PHO 88 (pho88dc.com returned 403; a Clover ordering page and pho88ngrill.com were not added because the official site could not be read to confirm the link), 13 TKK (tkkusa.com still has a brand menu and still does not list the DC address), and 16 Luna Bar (Luna Hall Group site still under maintenance, HTTP 476; the hall Toast page already used for Poke Ninja was not assumed to cover the bar)."
 }
